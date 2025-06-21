@@ -12,7 +12,7 @@ export const Comp: React.FC = () => {
 
   return (
     <AbsoluteFill>
-      <Sequence from={0} durationInFrames={240}>
+      <Sequence from={0} durationInFrames={2400}>
         <PanBeatit />
       </Sequence>
     </AbsoluteFill>

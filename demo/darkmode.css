@@ -1,0 +1,46 @@
+/* darkmode.css */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+a {
+    color: #90caf9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+pre, code {
+    background-color: #1e1e1e;
+    color: #c5c5c5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+pre {
+    padding: 1rem;
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    border-bottom: 1px solid #333;
+    margin-top: 2rem;
+}
+
+blockquote {
+    border-left: 4px solid #555;
+    padding-left: 1rem;
+    color: #ccc;
+    margin-left: 0;
+    margin-right: 0;
+}
+

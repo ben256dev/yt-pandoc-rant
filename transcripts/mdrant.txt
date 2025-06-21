@@ -1,0 +1,510 @@
+Anytime I want to write something, I do it the exact same way.
+Doesn't matter if it's a lab write up an article, a bunch of math equations, tables, images,
+even a slideshow can be prepared this way.
+If I was going to write a novel, this is how I do it.
+Firstly, a year ago from now, I had no VIM, no Linux, and no Git command line experience.
+But recently, I've been using VIM Git and PanDoc, and I've switched exclusively to Unix
+for the last year for all of my programming.
+And in this video, I'm talking about preparing documents like writing articles or lab write-ups or stuff.
+So I have done 100% of my homework, anything I had to turn in, like write up and turn in.
+This whole year for two semesters in the university, I've done 100% with VIM and Markdown.
+Whenever I had to turn in a PDF, if I had to turn in, I guess usually it's just PDF, right?
+You turn in a PDF, I always converted it from Markdown to PDF with PanDoc.
+I even decemberish, I switched my keyboard layout to use Colmack DH, I started using Homeworld mods,
+which is a way that basically I can hold down the H key, or sorry, I can hold down the J key,
+and the J key if I hold it down, it's shift, if I press it, it's J, and it's like that for K,
+it's control, L is alt, I believe, and then whatever key comes after that is Windows,
+and it's mirrored on both sides. So I got really hardcore into this, but today I want to focus
+on VIM specifically and PanDoc specifically. So when I use VIM, I do 100% in the terminal.
+My terminal, it looks like any other like default terminal, it has the default
+terminal colors, it's not fancy or anything. My VIM has no plugins, out of habit, I use
+NIOVIM, but that's just because I'm just used to typing NVIM, because people told me to use NVIM,
+and I never installed any plugins, but I never stopped using NVIM either. I guess there might
+be some features in NIOVIM that are worth using over regular VIM, but I don't know if
+everybody knows what VIM is, but basically VIM is a modal editor. So usually when you're doing
+text editing, you're clicking around and stuff, you're using your little mouse, your little index
+finger, it hurts, it hurts, man, when you're clicking that little mouse button, and the difference
+with VIM is, while if you use Visual Studio, if you use what is it called, VS Code, which is,
+I used to use Microsoft Visual Studio mainly for C++, maybe some C-sharp, and I was really good at,
+you know, you want to move a line up and down, you hold the Alt key and you use the arrows,
+and you can move that really up and down, it's super satisfying. There's other things, there's
+multi-line editing and stuff that are really nice to use, and I do appreciate those features,
+and I was really good at using those. Even like, some of the most autistic people in my computer
+science major didn't know like the hotkeys as well as I did. So I'm short of God, I'm really,
+I was really good at using the hotkeys, and I was pretty bummed out when I switched to VIM,
+and I couldn't use those anymore, but I realized about a year ago from now. Now, well,
+literally a year ago, if actually more than a year ago, I got out of school, and I hadn't played
+a video game in so long, like a year before, like two years ago, I had a huge hiatus where I didn't
+play any video games. So I was just playing the hell out of civilization five, and civilization
+five for context. This is a game, it's a strategy game, it's a turn-based, and I have like a thousand
+hours in this game, but I have a thousand hours in this game, but the thing with Civ five is
+you're doing a lot of repetitive things over and over, and so it gets helpful to learn how to use
+hotkeys, and the thing like Civ five has an amazing UI. It is so satisfying to click the buttons
+with your mouse. The buttons are like juicy, and they're all colorful and stuff, and like it has such
+a nice visual UI, and you do end up clicking on stuff, you can't just not use your mouse for
+everything, but when I was playing Civ five, I was doing a little binge after school ended,
+and I was just starting to realize, I wish that I could use the keyboard for everything, like
+I don't even put that much effort into learning the hotkeys, it's not like I'm reading like a
+manual or something, it's like whenever I have something to do, in Civ five, I'd look at the
+button on that to press, and there's a little tool tip that pops up and it says, oh, next time
+you plan a farm, you can just press I, you don't have to move your mouse to the corner of the screen
+and select your worker and press the little farm icon, just press I, and that'll plan a farm,
+and when you're planning a bunch of farms all the time, that comes in handy, like I start learning
+it like, oh, like a camp, a camp in Civ five, I know this, a camp in Civ five is H, if you have
+like some fur, some little elephants or something, and you want to make a little camp, some deer,
+you put H, you press H every time, and like, those are things that, like I was never a keyboard
+nerd, okay, I was trained on Windows, like I never used Linux, I can't stress enough, I did not
+use Linux whatsoever a year from now, or a year ago, I used 100% Windows, I was a mouse clicker,
+supreme, like shooter FPS player who like to click on stuff, okay, but I did have a friend who
+kept telling me, you should learn them, and I always thought them would be super hard to learn,
+there's this YouTuber called Tantan, I think, he's like this guy with like long hair and he's
+from like Scandinavia or something, and he, um, he has a bunch of videos, I watched him a year or two
+ago, where he tries to use his keyboard for everything on his computer, and I thought this
+seemed like the most like grueling, boring, like frustrating experience to try to use your keyboard
+for everything, and even just using them, like when I heard that you can use your keyboard to like
+edit everything, and you don't have to click ever in your editor, like that seems so tedious,
+but there has to be a reason why people choose to do that, right, and so that kind of started my
+curiosity, and when I had this random dude who I know in computer science talking about, oh,
+I switched to VIM motions, I use his VS code and uses VIM motions, which if you don't know what that
+is, it's just a plugin for VS code that lets you use basically the VIM hotkeys in VS code,
+and the advantage of this, right, is you can switch over so smoothly, so easily, because
+because if you're an insert mode, you're basically being able to access all the same hotkeys,
+like you're in the same mode as you would be if you were just like in the VS code normally,
+and you're using the arrow keys and stuff, the problem comes when you exit that insert mode,
+suddenly you're in, there's different modes available, and like you want to highlight stuff,
+you have to use V and stuff, and I won't like go over every feature of VIM, but I think people
+should definitely look into VIM and consider using that, because it's also just so convenient
+to be able to use VIM from the terminal, like any place you have a terminal, VIM is pre-installed,
+first of all, secondly, if you're on a Unix computer installing packages and installing
+you dependencies is so easy, like I did so much C and C++ development, and C and C++ development,
+the worst part about it is dependencies and building your program, and when you use Microsoft
+Visual Studio, I used to have tutorials, I don't know if I deleted it or what, maybe it's unlisted,
+I had a really popular tutorial on this channel where I would go and I would go to Visual Studio
+and I would tell people how to set up their development environment to be able to use SFML.
+SFML is this, what does it stand for? It's like multi media, video, library, or it's a library,
+basically people use it to make video games, and it plays audio, plays as graphics, and controls,
+like input, so people use that to make games, and I used it once and realized how hard it was
+to set up, just you have to go into the properties, and you have to find every look, I go to my
+includes, and I include this library and this thing, and then I go to my library tab, and then I
+include this, and then I have to go over here and make sure I enable static, and so many so much
+garbage in Microsoft Visual Studio. There's this Properties tab where you set up your program,
+and there's just a million, there's a menu with a million options, and every option you click on it,
+and it's a drop down with another recursive menu inside of it, with more annoying options,
+and if you make a single mistake in any of these options, the recommended choice of action
+was always to just restart and do the same steps over again, and I don't even know how I would
+make a mistake, but it's just so stupid, compare that to a code-based build system,
+like something where you're writing text, and that determines how your dependencies are set up.
+This is why new languages like Rust, or Rust is like this go as like this, where when you're
+setting up your dependencies, you just have like a little file, and then you just write down the
+dependencies, instead of some other garbage, you know what I'm saying, so it's really
+important when you switch to Unix, the reason you switch to Unix, I say Unix, I mean like Linux,
+it's like a POSIX or like Unix system, but you're switching the Linux from Windows,
+the reason to do that is for package managers. The reason is not that like the government isn't
+going to spy on you, or like it's faster, or something like, those are like little bonuses,
+but the reason why you switch to Linux is for a package manager, so you can open a terminal,
+and the terminal just works, it doesn't have like weird bells playing and stuff all the time,
+when you do something wrong, or like the screen doesn't flash annoyingly, it's just a terminal
+and it works, and you have a package manager installed with your distribution, doesn't matter
+which distribution as long as it has a package manager, and generally like if you're on
+Debian, if it's like Debian based or whatever, then you're just going to run apped,
+pseudo-apped install, and then it's some name of a package, and if you use a popular package
+manager or distribution with a popular package manager, then it's really easy to find the name of the
+package, you want to install, like installing Firefox is as easy as pseudo-apped install Firefox,
+and the fact that that's even possible is just mind-blowing, when you come from Windows,
+the other thing is let's say we're using Google Docs, okay, this video is about
+document formatting, so like let's compare the alternatives to my method, so Google Docs, Microsoft
+word, there's probably some other stuff, when people do a professional research and stuff,
+they usually use something called LaTec for their equations,
+if you don't know what LaTec is, that's fine, but basically there's a lot of alternatives,
+and usually the benefit of these is that they let you style things correctly, right,
+and I'll argue here in this video that styling is not an important feature to have for your
+tool for writing your text, what you want to do is you want to write your text, you don't want
+the distractions of the styling to pop up, because you know, eventually you're going to finish
+your writing, and you're going to want to submit it or publish it or whatever, and then you're
+going to style it, sure, but when you're starting, you don't need, when you're just drafting
+what you're writing, what you're writing, you don't need the styling to be distracting you, and
+when you're in Google Docs, I don't especially for anyone who's ever worked collaboratively in
+the Google Docs, I don't know how many times like my group may has written something, and they just
+like put an extra indentation, or they use the wrong kind of indentation, or they put a
+page break unnecessarily, or something. Another thing that made me start thinking about this is I
+had this teacher, and it was for a technical communication class, the whole point of the class
+is how to communicate effectively, how to write documents effectively, and she, she was a huge
+stickler for when you write a heading, your heading should be consistently formatted, every single
+heading should look the same, and if you have a different level of heading, a subheading, if you will,
+then those should all look the same, and the subheading of the subheading should look the same,
+and there's a way to do this, right? There's a way to do this this smart, when you're in Google Docs,
+they support Markdown, that's how epic Markdown is, they started to support it, if you type a hash,
+okay, in Markdown, a hash signifies a level of heading, two hashes is a heading level two, one hashes
+heading one, three hashes is heading three, so on, right? So Google Docs supports literally
+supports typing Markdown into Google Docs. At that point, just use VIM. If you can't use VIM,
+use any like use no pad plus plus, it doesn't matter, but use Markdown. Markdown is so much
+better than these for you write your text, and then you look at your text, you're like, okay,
+it's my, oh, there's like an extra space there, there's extra space in between the paragraphs,
+you can even use VIM. VIM has a built-in spell checker, you just turn it on, and all of a sudden
+you get a bunch of red like things that pop up, all that word is spelled incorrectly, that word is
+spelled incorrectly, it even has a dictionary that you can use to automatically replace your
+misspelled words, it's crazy, and you can turn it on and off, right? So it's like the ultimate
+tool for like no distraction, and you can type fast. Once you get the hang of the simple Markdown
+syntax, you get an idea of like, oh, I want to write this, there's going to be a heading here,
+there's going to be a table there, there's going to be an image there, and you just, you just kind
+of like, poof, like, your fingers move, and the text appears, and then you don't have to worry
+about any of the styling, nothing distracting, right? Then next thing you do, you use padlock,
+you run it through padlock, you can get inverted to any format, even HTML, and the advantage of
+HTML, it can't be stressed enough. HTML, any modern browser can open an HTML file, because
+that's the point of a browser, right? Often when you submit a PDF to your professor or to, I don't
+know, for work or whatever, someone is going to open that PDF in a browser anyways. So why not use
+HTML? HTML is faster, you can embed resources into HTML, I'll get into that later,
+like, images HTML, HTML is styled nice, you can format, you can send her stuff in the page,
+you're submitting a PDF, and your PDF is not going to be printed, okay? Like, nobody uses prints
+anymore, everybody views stuff on their phone or on the computer, and that's what HTML is good for.
+PDF, there's like random page breaks, like why do you need the format of a page, like you're
+scrolling and reading an article, and you're just trying to look at some image, and it says,
+oh, chuck of page, look at page 18 for the figure, it's so goofy. This is like time of the past stuff,
+okay? Next, next time I see a figure, and there's like a, you're reading a PDF, it's, oh,
+go to this page, I'm going to like email the professor and tell them to use HTML. HTML has been
+around for long enough that we shouldn't have to deal with a page ending abruptly, okay? A nice
+web article is so good because you're just scrolling down, you're reading the content, and then it's
+like, look at the image, the image below, it's literally after this sentence, and you can look at
+the image. You don't have to go to a separate page to read it or nothing. Plus, it's all centered
+in the middle of the screen, modern browsers, if you're reading something, and you find the
+styling distracting for some reason, then you just enable the, what's it called? I'm looking
+at it right here. There's like a, everything, they have like a simplified reading mode, at least
+in Firefox. I think Google has the same thing. So like any HTML page, you can simplify read it,
+like, you can, you can put HTML in emails, okay? You attach a PDF to an email. You don't paste
+it into the email, but HTML, how many times have you asked at me, like, you're like copying
+stuff for your homework assignment, and you paste it into Google Docs, that's what pasting HTML
+is. That can come in handy. Like, there's so many, you're like on Reddit or something, some forum,
+your school's coursework website. They always have like buttons, like, oh, press this to turn on,
+like, a little shitty version of Google Docs are, but pardon my swearing. They have a little
+crappy version of Google Docs, right? And they have like a header button, and they have like
+bold and metallic and stuff. You could do all of that in Markdown, converted to HTML. There's
+copy it, put it on your clipboard, and then paste it in. And don't bother with their like,
+crappy fake Google Docs that the every little website, every little forum has, every little
+blog thing has, okay? Anytime you want to write a comment, and you want to like highlight something,
+just write Markdown in the terminal, and you can get down your clipboard easy with Pandok. So,
+the other thing is like, okay, let me tell you a story. I had in that tech community, the tech
+communication class, I had a group mate. He was so arrogant. We tried to get this guy to do some work.
+We texted him. Hey man, you go to do this thing. And he's like, he's like,
+sorry, I'm actually an author of 22 books, and I'm working on my 23rd book right now. So I don't
+know if I'll be able to get much work done in this project. Like, bro, you're in college. We didn't
+tell you to sign up for college or to join our group or nothing. This is all Europe. And he's just like,
+I'm not right. I don't know how I don't know if I have. So anyways, he just randomly pops in
+he goes to all of our hard, our hard earned like, we type this stuff up. We tried so hard and
+we proofread it and stuff. He goes in there. He's like, oh, I'm going to help you guys out. Okay,
+I'll get some work done. He's just, he's trying to, he's trying to do the bare minimum so he can get
+on, get his grade. Okay. So he goes in there. He goes to like, like periodically through all of our
+writing and he just replaces writing with worse writing. More, how do you say it?
+It just replaces it with more superficial, more, what's not prestigious, but like kind of
+sending writing. Like, he put in there like some like goofy words like, uh, I don't know. He just
+like made up a word that sounded fancy. I swear to God. He just made up a word and sounded fancy and
+replaced it with a like a decent word and like just made the writing unclear and strange and our
+Google Doc was ridden with these horrible edits from this guy. He made it like 2 a.m. He literally ran
+some of our stuff through like a crappy AI checker before AI was good and just like replaced it
+without even looking at it, I guess. And I had to go in and like remove each one of those individually,
+but it was like hard to find because Google Docs doesn't actually do that good of a job of like
+showing your reversion history. Versus, let's say, you use something like get, you use GitHub.
+GitHub also has GitHub has probably more space for you to upload your text than Google Drive.
+I could be wrong, but that's how it feels, right? You could like it's like an endless infinite space
+for your repositories. You're never going to run out of space on GitHub. You use Git and when
+Git, if you want to put, if you want to make revisions, especially if you're like an individual author,
+you have to tie all your revisions to a commit and then you have to title it and it has to be intentional
+and there's this whole history and you choose what to commit and what not to versus Google Docs.
+You just go in there and you're like, you just go in there and accidentally press K about
+a bunch of times and then someone has like a bunch of keys and then it scrolls down
+like the other person's editing it and suddenly the text moves down the screen because they just
+paste it in like a giant paragraph. It's just, it's just so goofy, right? Versus Git is the way you're
+supposed to do it. Software engineers, they write text every day, just like authors, they've
+already figured out how to version control stuff. I was like, I saw Jordan Peterson this guy,
+this psychologist guy one time. He's talking about, he's like, oh, whenever you, whenever you're editing
+things, you, you have to throw things away and you revise it and that's so much stuff that gets thrown
+away and so he became up with a tool, I guess his son did or something where he can
+you revise things but it saves your revisions like you delete stuff and it saves everything you
+delete it and then you can like, in theory, go in later and like, oh, this is all my deleted work
+and then compile it. I don't know if people do that very often but I was just like listening to
+that thing and like, this is so stupid. Like, that's what Git is for. Git preserves your entire
+version history. When you delete stuff, it doesn't throw it away, it puts it like, it compresses it,
+it compresses like the diff of everything and compresses it in the history, the entire history,
+everything, all of your, everything you've ever written in a Git repo exists somewhere for you
+to just unpack, uncompress and reuse. Like, it's just completely reinventing the wheel to have
+this Google Drive thing, right? Oh, I understand why people use Google Drive but
+it would be an interesting future. If people, if authors, they were writing a novel and they're like,
+I'm just going to write it in Markdown and I'm going to use Git's a version control it and I'm going to
+use Pandok to convert it to the final version or you don't have to use Pandok. Like, couldn't you just
+send your markdown off to the publisher? Like, oh, you figure out what it's supposed to look like. I'm
+not an artist or whatever, a typesetter or whatever. Um, I'll just say again, I'll just say again,
+I used to be skeptical about all this. I can understand people probably listening to me like,
+what is his nerd talking about. He wants to write everything in Markdown. Okay, I got a VPS.
+A VPS is a virtual private server. That's like a computer that you buy that's on the cloud somewhere.
+Mine is in Seattle. It's like in a different state as me, but doesn't matter because when you
+when you're workflow is 100% in the terminal, you can access your work set up anywhere.
+It's similar to Google Docs, oddment, but the terminal's different. Okay, you can install packages
+to get stuff done. You, you, you, um, you can install plugins for them to improve things.
+There's so many little like nice features in the terminal that are good to use. For example,
+my VPS, I use my VPS for file sharing. I have a website. It's Ben256.com. Okay, I pay for
+domain, I pay for email hosting, and I pay for the VPS. And all of all together, it's not all that
+expensive, but when I upload a file, what I do, okay, instead of the Google Drive thing, which is like,
+you just have a bunch of files and blah, blah, blah, blah, and then it runs out of space,
+I don't ever run out of space, okay. I put a bunch of stuff on my VPS. I hash it,
+hashening it gives me a fingerprint of the file. It's like a short compressed version
+that identifies the file uniquely. And you're never going to hash it and get the same hash
+with a different file content. You're never going to hash it and get a different hash with like
+different file contents. So what I do with that is I hash the file and then in the URL where
+I host the file on my website, I include the hash in the URL. And this has been useful because
+that hash identifies the contents of the file, even if you can access the file. So at one point,
+I changed the structure of my website and how I host files and I moved it around a little bit.
+But I still submitted an assignment with the URL to my professor. So I had proof undeniable proof
+that I had the contents of the file, even if they can't access the file. So all they had to do is
+be like, oh, I took a while grading. Is this file still up? Yeah, look, I hosted it here with the same
+SamExact content, SamExact hash in the URL. You could, and if they want to verify if they're
+really paranoid, they can go to Blake 3, a Blake 3 calculator somewhere on the web and calculate
+their own hash of the file contents. Additionally, sharing your files becomes so easily
+when you have a domain and you can just tell your friends or whatever, like, hey, go go to this URL
+and you're going to find the file that I want to share you. No more emailing stuff, no more of that
+I can even, I can even, um, I have a script that I run that uploads a file to my server,
+hashes it and generates a URL, returns the URL. I can pipe that into a package I installed on my
+Unix machine. It's called QR encode. And what it does is it takes any stream of text and turns
+it into a QR code. And so what I do, my helperscript already returns the URL, then I just pipe it into
+QR encode. And I get a giant, um, QR code in my terminal, a zoom out, I tell my friend, just scan this
+with your phone. You pulls it up and he's instantly got it, doesn't even have to type it into the browser.
+There's also, um, if I use wayland, there's like x and wayland, there's like different,
+it doesn't matter. But on Linux, use x or use wayland basically. I use wayland, and I got a package
+called wayland, uh, copy. I think it's what it's called, something like that. This is the command I
+run at least. I'll pipe the URL into wayland copy. And then I don't even have to like select the URL.
+I don't have to type it in or anything. It's a huge URL because it's got a big hash in it. But I'll just,
+um, without even touching my mouse, I'll write an entire, uh, write up, I'll convert it to PDF,
+convert it to HTML, and then I'll pipe it into my keyboard or my clipboard, and then I'll just
+paste it in and submit it. It's so convenient. Um, there's even, so when you convert to PDF,
+you have to select an engine to convert to PDF. And this allows for a feature where you
+can have a PDF only link in your markdown. So what I do is, um, a lot of the time when I'm submitting
+an assignment for my school, um, they require PDF submissions. Um, the problem with PDF submissions
+is their stinky, and HTML looks better in every single way. So what I like to do is I first thing
+I do, I get my markdown. I turn it into an HTML, uh, file. Then I upload it to my website,
+like how I've described already. Then I get the URL for that. And I put it back into the markdown
+in a PDF only link. And the way you do that is you, there's some syntax. You were basically
+you make a lot tech link. And the lot tech is PDF only. So you put that in there and you put
+like read the HTML here. So you can open a PDF. Just because it's a PDF is like an offline resource
+generally, right? But doesn't mean you can't have a link in there. Um, so there's a link to the
+HTML, which is super convenient. It means like, uh, whenever the greater is like, oh, you're, uh, I can't
+grade this. It looks too bad because you submitted a PDF and lot, and sometimes Pandox struggles with
+PDF and images, especially the images appear on different pages. Like I said earlier, that goofy
+figure stuff like when there's lots of images that breaks down. But I can just be like, okay,
+well, I already linked the HTML to you. You don't have anything to complain about. Just read the HTML.
+It says right there. Read the HTML version. If you can't read the PDF version. So, um, um,
+I've never had like an issue. Like, if I provide HTML, I'm absolutely sure that the
+formatting is going to be perfectly good because it's just consistent and it's consistent,
+standard and just good formatting. Like you don't have to double guess it. You use the built-in
+Pandox styling. You'd use the dash S flag and you get a nice little look in the HTML page.
+You can even, um, you can even make slides with Pandox. You write them in Markdown and you use,
+I believe you use three dashes to separate each slide. And then you can use dash t revealed.js
+in your Pandox as, as two flags. And it'll convert to, um, HTML slides. HTML slides
+objectively superior to whatever other like PowerPoint format or whatever garbage. Like, I was just
+in a class where my professor had a bunch of slides. And I was constantly downloading PDFs. It was
+so annoying because the slides were converted to PDF because it's an easier format to view
+than PowerPoint format or whatever the hell. So you convert to PDF and then it's broken up into
+pages and then it just sucks. Okay versus HTML, you can get a nicer looking set of slides
+if you use revealed.js. And you just host that on your website. No need for someone to download
+your file. That's what web resources are for. When you frequently download something,
+or access or reference something, it should be a page. It should be hosted on a website somewhere.
+You shouldn't have to download a PDF anytime you want to read something. And then you have a
+parentheses one, parentheses two, parentheses three, parentheses four. How many times am I going
+to download this file? Just to like, I have to remember to delete it every time. That's what the
+browser handles for you. That's what websites are for. That's what the web is for.
+This is not a plug, but I was curious if I could use this to make a statically hosted site. So
+statically hosted site. Last time when you're using the internet and you're accessing a web page,
+the web page is all like fancy formatting and interactive and stuff. A statically hosted site is different.
+It's like Wikipedia or something, or if you ever use a wiki for a video game. Some people write
+blogs and they're statically hosted. It's kind of like WordPress, you know? The idea with that is you
+just want some content and you want people to read it and you kind of want it to look nice.
+It doesn't need to be fancy and interactive. It's not a video game. It's not like a calculator or
+something fancy. It's just something you read, right? So what you should do? What people, let's say,
+let's start with what people do and it's wrong. Okay, with the wrong stance. What people do
+is they're like, oh, I'm going to write this in HTML. So they just write all of their articles in
+HTML. That's okay, but it's just tedious. It's so tedious to have to write. You open a tag
+and you close a tag and blah, blah, blah, blah. And if when you use them admittedly, it's easier to write
+raw HTML, but you don't want to be doing that. Anytime, markdown syntax is so much better.
+So generally people understand that. So they write their articles. Whatever they want to statically
+host, they do it in markdown. But the problem is they're like usually programmers are using markdown.
+So they're like, oh, I have this markdown. I'm going to have to write a program to convert this to
+HTML. And then I'll host it on my site. This is cringe. You're reinventing the wheel. There's this
+thing called Pandok. Use Pandok. Anytime you use a markdown, you got to use Pandok. It's so nice.
+Just write your article in markdown and convert it to HTML with Pandok. Now, if you don't like the
+styling, that's where you use templates. You can make HTML template files using Pandok. And the
+way that works is Pandok will substitute content dynamically, depending on what kind of HTML template
+you provide. Like I can't, if I had to write one from scratch right now, I would struggle.
+But honestly, just ask chat, GPT. How do I write a template? And how do I write an HTML template? And
+convert my markdown file and turn it into it. And you end up using a metadata. So like give the
+title and stuff. Well, I ended up doing, okay, it's not a plug. You go to Ben256.com slash read.
+And what I have there is I have a bunch of writings from Plato. And I haven't completed this.
+It's not people don't, I guess. I tried to get my friends to read Plato, okay, nobody read it.
+But you have Ben56.com slash play to or slash read. Sorry. And there's a bunch of writing from
+Plato. And what I did here is I had my styling that I like for my articles. Because, you know,
+if you're trying to read Plato, up front. Because, you know, if you're trying to read Plato,
+you go to project Gutenberg or something, right? Like you just look up, like of course,
+all the writings of Plato are public domain. What are all of them? But like the older translations
+are public domain. And they're nice to read. So you go and you find Google Republic by Plato.
+Then you go, you find Project Gutenberg. And you just have this disgusting ugly site.
+Because the site isn't meant for doing all your reading and stuff. It's like an archival site.
+That's what Project Gutenberg and these other websites are about. These archival sites. They look like
+Pupu. They look like doo-doo. So I'm like, okay, I'll make one that's actually nice to read.
+So I put a little bar at the top. It like scrolls to show your progress. How much you've read?
+I put when I updated it last. And I, I run a shell script to get the current date. When I update
+the page and it automatically updates for me. I put in, you know, just consistent formatting.
+Overall, there's at the very top. There's a nav bar with other writings from Plato.
+And it's just really nice, you know. And it's a good example of how you could do your own
+statically host at site. You can make a blog, whatever you want. Just go ask chat, GPT. I know people
+are snobs and they are too, they think they're too good to use AI. But just go ask, hey, how do I?
+I mean, you could read article about it if you want. Go find a medium article on this.
+Pandog, HTML templates. But templates are so nice. I went to Project Gutenberg and I found
+there's just countless writings from Plato. Public domain. Usually they're translated by
+what's this guy's name? I don't remember Benjamin Jowett. He's a translator. And then his stuff
+is public domain because he did it so long ago. So you just go to Project Gutenberg. And there's
+a bunch of UTF8 versions of the pages. So I don't have to just copy paste the HTML version.
+I go download it. I just delete some of the crap. I fix it up a little bit because Markdown
+is not very far off from just playing UTF8, playing text. So I have to do minimal changes. And then
+it's a complete Markdown document. And I have a template. Every single writing of Plato,
+I can stick it. I can format it up. Mark it up and mark down. I guess you're marking it down and
+mark down. I mark it down and mark down a little bit. I plug it stuck it into the pan doc. Pooops out a
+give it my template. Pooops out a completed HTML page that I can host on my website. This is so convenient.
+I don't know. I don't know why people manually write programs like to replace Markdown with HTML.
+It's like even more nerdy than what I'm doing. You can have such good looking sites. I mean,
+even just ask chat GPT for a default template for your HTML. It's not that difficult. You know what I'm
+saying? So anyways, if you want an example of this working, you can go to read at Ben256.com
+slash read. And you can see what this looks like. But yeah.
+Next, I want to talk a little bit about the next, I want to talk a little bit about Unix and
+general. Unix was the precursor to Windows. The precursor to Linux. Precursor to Mac OS. This is the OG
+operating system for computers in general. So back in the day in Bell Labs, it's like this AT&T
+research facility where they had a lot of money going in and out. They ended up creating this operating
+system called Unix. And the features of Unix are like the backbone, the inspiration for all
+of the operating systems that would come after. The greatest tragedy of time is that Unix
+was proprietary. So it was closed source. Nobody got to use Unix unless they got permission,
+basically. And this means that although Unix was eventually, this means that although Unix was
+eventually developed by Linus Torvoltz, Unix is okay. It came to late. When Windows was developed,
+Windows was developed before Linux, right? And when Linux or when Windows was developed, Windows was a hit
+because of they were so good at marketing. They were so good at marketing like this, this operating
+system where you just click things and everything works. And there's nothing wrong with Windows.
+Windows is awesome. And the fact that we have graphical interfaces obviously is like we can't just
+live in a world without graphical interfaces. That's not what I'm suggesting. But
+we don't have the backbone of Unix. Like we would have. If Windows was built on top of Unix,
+if Windows was similar to Linux, like it had this this Genu operating system. And it was a
+kernel built on top of it. That would have been so nice to build off of what the original
+people had in mind who developed the systems that we use today. The original OG computing professionals,
+right? Back in the day, when you wanted to spell something correctly, you didn't use like the
+spell checker in Microsoft Word. You plugged it. You use the terminal and you plugged it into a
+computer program. Now, I don't know if that would have stayed that way. But what we have now is
+we have PowerShell. We have PowerShell. When was the last time you ran a script for Windows? Like,
+oh, I'm going to run a script real quick. And you have like a PowerShell prompt. Whenever I have to
+open the PowerShell prompt, I'm pretty sure I'm about to get hacked. Conversely, I take Linux. Linux is
+so convenient. I thought this would be difficult, right? When I switched to exclusively Linux,
+I wiped Windows. And I installed Ubuntu. Ubuntu is just like Windows, but slightly different.
+It's just like a different paint, like paint, a code of point paint, okay? Different code of paint.
+You could do everything works the way you would expect it to work. There are little things,
+right? Like little apps that don't work. But what I'm getting at here is not everybody has to do
+things in the terminal. Not everybody has to do everything the Linux way. But you're a programmer.
+You're a programmer and you're using GitHub GUI because you're too afraid. You're too afraid to
+learn some Git commands. It's honestly it's pathetic. It depends on how long you've been programming.
+But if you're like, for years, you're like, I'm not going to learn that. It's too hard. It's just,
+I cannot, sorry, I can't sympathize a little bit, okay? I used to think, like, oh, I can use GitHub
+desktop for everything. I'll be fine. Or I'll just like save, I don't like make backups manually
+of my code. This is so goofy. You need to get on Git. You need to use Git on the command line.
+Get used to using Git on the command line. Like you can even use Git log and you can just learn
+how to use the flags to make the Git log look nice with the different branches and stuff.
+It's not that hard. There's a lot of flags, but you can make an alias in bash. That's what
+bash is for. If that's too hard or whatever. Then the idea, if you're a programmer that you would
+be opening Microsoft Word, Google Docs to type something up when you can use Markdown,
+which you should already be using Markdown for your readmees for your GitHub repositories,
+like just use Markdown. It's so convenient. It's so much easier or writing HTML manually.
+I saw this. It made, I set up my website according to a Luke Smith guide. Luke Smith,
+he's like this, but by polar guy who he lives in the woods and he's like afraid of the government
+or something. But he has an excellent guide on how to set up a website. I really recommend it.
+I followed his guide and then one of his videos is like the first video after is like this is all
+we write our website now and he just starts writing raw HTML and this is um it's nice to learn how
+HTML works, but like man do not be writing. Don't write raw HTML. Right stuff in Markdown. Markdown is
+so nice. I wish I had a book to write. I want a book to write so I can write it in Markdown.
+I don't even want to write a book. I just want to be able to write like stuff in Markdown. It's
+so pleasurable. I just you know I just climax when I have to write something in Markdown. It's so
+I just I won't even look. I won't even preview it until it's like basically done and then I'll
+run it through pan doc and I just it just works. Right. It's so nice to write Markdown. It's better
+than like any programming language you've ever used. Let's I'm going to take a minute to hate on
+latte. Okay. latte is nice because I don't know if everybody knows what latte is. latte is good for
+math. Okay. Math equations and stuff. They kind of stuff if you're using Google, Google Docs like a
+little peasant you're going to go and you're going to go to your little equation tab and you're
+going to have a giant menu and you're going to try to find the fraction and stuff. Okay. What you do
+is you use something like latte or use something like math jacks or alternative to all of them.
+Just go to like make some symbols and wolf from alpha or whatever. Point is when you're writing
+math equations you don't want to have like a slash instead of a division sign. That's goofy. Okay.
+When you multiply stuff you don't want to be like uh uh didn't I think the White House did this
+with like tariffs or something. They put an asterisk instead of like a cross or a dot. Okay. When
+in math you use a dot or you use a cross when you're multiplying stuff. A cross is for cross
+products usually when you're doing vector like linear algebra stuff and then otherwise you use
+a little dot and when you're in latte you type a slash type a back slash c dot back slash c dot
+and that's how you multiply stuff and then you can remember that or if you're doing a union right
+you have the union symbol. You could look up union symbol into Google like a Google okay or you
+could go to Google word or Google Doc word or whatever that program is called and go to your your
+symbols uh table and where's the union symbol but it's just come on it's slash union okay
+I'm pretty sure I'm gonna double check. Law tech union union symbol oh maybe it's actually
+okay it's actually not called union it's called cup besides the point but you know there's cup
+and then there's cap I'm pretty sure something like that for union and intersection. I'll say
+the only thing that sucks in latte is uh you want to have like real numbers or whatever you have to
+like import a package for that it's goofy. That's why I recommend a math jacks if possible I really
+like math jacks because it's just just a little bit more intuitive latte is more powerful
+more flexible maybe more widely used so it's easier to find resources if all else fails you can
+always ask chat GPT like how do I do this in latte but let's uh back to the point okay the point is
+I've seen people write uh documents in the latte usually they use a template if they don't use
+a template they're probably suffering okay because when you use latte you don't just write the
+equations in latte you write like the whole document the titles you write how much like how big
+the header is or whatever you write like the the style of the document and you have to do like
+little bit slash begin slash end slash use package or whatever it's it sucks okay the nice part
+about latte is equations you don't want to be using a little stupid menu and like clicking with
+your mouse to get your symbols and equations and stuff but at the same time you don't want to have
+to format your document like the outline of it with latte so here's the excellent solution you can
+use just write your documents in markdown and you can embed latte into markdown whenever you want
+a math equation and um so markdown does math equations better than Google Docs better than
+Microsoft Word it also does code better how many times have you been like looking at somebody's
+PDF for something they typed in Google Docs or Google or Microsoft Word and they put code in there
+but the code is like the code isn't mono space font first of all the code there's no syntax highlighting
+it like spills over onto another page and gets like broken up by two page breaks that's it's just
+stupid use HTML first of all experts HTML and share your HTML people with people you don't even need
+a website share your HTML files but just save it and send it to email your HTML to people and
+when you're using markdown and you want to have code you do three backticks and you put the type of code
+so for example if I'm writing some C code I do three backticks and I put a C to signify I'm inserting
+I'm inlining some C code a C code example and paddock will automatically highlight it if you
+aren't using paddock and you're just using a git it's just a GitHub repository and you have a
+readme.md you can insert code and mark or GitHub will automatically uh syntax highlight the code you can
+do you know you can do like bash for the command line if you don't want highlighting you can do python
+Java C sharp just think about all the possibilities so much code that is highlighted you can
+so many people reading your highlighted code with syntax it looks like real code it doesn't look like
+random words that are black and white on a page it's so convenient really recommend that first
+firstly symbols uh symbol math math equations use embedded log tech secondly and bed code into your
+markdown and um specify the language you're using and it'll automatically highlight it to make it nice
+and colorful when you're using pdf it can get cut off if the width is too wide uh by default of course
+and then but if you use html and use the dash s standalone flag then you can um uh you can
+make a scrollable region so when you import that code you can scroll left and right you can even um
+yeah
+um next I you can even I mentioned it earlier um if you want your images and you're going to
+bundle okay let's say you export to pdf pdf is like an all inclusive format um it means like if you put
+images in a pdf you know that they're going to be accessible however uh sometimes html relies on like an
+href like a link to somewhere else on the internet so if you want to package images with your
+html you can do that you can just base 64 and code it and that sounds super complicated I had a friend
+tell me like oh why don't you base 64 and code it I'm like yeah I know and he's like oh that'll be kind
+of complicated though I'm like nope paddock dash dash embed resources flag automatically embeds your
+images base 64 into the html stand it's just and in my experience html embedding your images as
+base 64 into that html file it's faster than pdf it exports from pdf from paddock faster than
+pdf it's faster to load than pdf like pdf just sucks okay pdf sucks that's the moral of the video
+you but you can provide both with paddock if someone wants to use the inferior version or the inferior
+format they can use pdf if they want they can use markdown if they want you could just oh you could just
+give them your markdown and your pdf and your html yeah as the moral of the story yeah
+anyways if you guys enjoy this I am setting up my website right now I got bent 56.com you can go look
+it stuff and over there there's not really anything interesting in the future I will be attempting
+okay I'm going to set up a monthly membership on that website and then you can support me there
+I used to have a patreon I'm not going to use that it's stinky but I will eventually set up a
+way to support me so if you want to follow these videos better I don't have a very good mechanism to
+do that except through discord so I do recommend you join my discord don't be a butthead okay don't
+be a butthead in there but if you're in my discord I help people out a lot in there I have been
+known once or twice the band people for being annoying but if you ask for help and okay you ask for help
+but if you ask for help and you're smart about it like oh I looked this up before I asked for help
+or you know I'm really struggling I need some help there's other people in there who will help
+you there's a code helper rule you can just ping those guys you can first of all join the discord
+go over there and you can sign up for specific rules you'll get notified when I do a live stream
+or when I do upload a YouTube video or when there's code or just a little updates or
+neither or all or any combination whatever you want you can customize the notifications in there
+so you get just the notifications you want it's a really epic server go check it out

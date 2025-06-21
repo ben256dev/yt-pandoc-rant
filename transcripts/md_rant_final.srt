@@ -1,0 +1,1832 @@
+1
+00:00:00,000 --> 00:00:07,120
+Any time I want to write something, lab reports, articles, math, tables, images, slideshows,
+
+2
+00:00:07,120 --> 00:00:11,280
+I use the same method, VIM, Markdown, and Pandog.
+
+3
+00:00:11,280 --> 00:00:18,960
+A year ago, literally today, I had no VIM, no Linux, or Git command line experience.
+
+4
+00:00:18,960 --> 00:00:25,320
+And today, I use Unix exclusively for all programming and document preparation.
+
+5
+00:00:25,320 --> 00:00:30,880
+Last year, I completely wiped Windows, and I switched 100% to Unix.
+
+6
+00:00:30,880 --> 00:00:35,840
+I use VIM specifically, uh, NeoVIM, just out of habit.
+
+7
+00:00:35,840 --> 00:00:40,840
+People told me to use NeoVIM, because it's got support for plugins and stuff.
+
+8
+00:00:40,840 --> 00:00:44,160
+I never installed plugins, but I still, I use VIM.
+
+9
+00:00:44,160 --> 00:00:45,360
+Just raw VIM.
+
+10
+00:00:45,360 --> 00:00:47,400
+My terminal is default.
+
+11
+00:00:47,400 --> 00:00:53,120
+There's no fancy colors, no skull, color scheme, nothing.
+
+12
+00:00:53,120 --> 00:00:59,680
+I even switched my keyboard layout to call MacDH with home raw mods, because I was so
+
+13
+00:00:59,680 --> 00:01:04,520
+serious about trying, uh, this attempt, right?
+
+14
+00:01:04,520 --> 00:01:10,960
+So a year ago, I was using Visual Studio, Microsoft Visual Studio, and trust me, I really
+
+15
+00:01:10,960 --> 00:01:13,880
+liked the hot keys in Microsoft Visual Studio.
+
+16
+00:01:13,880 --> 00:01:17,760
+I would do this alt arrow thing to move the line up and down.
+
+17
+00:01:17,760 --> 00:01:21,360
+You hold the control shift, and you can do multi-line editing, and stuff.
+
+18
+00:01:21,360 --> 00:01:26,640
+It was really nice, and I really liked the hot keys, uh, like even the most autistic
+
+19
+00:01:26,640 --> 00:01:32,080
+people in my major, I swear, in my computer science major, I knew the hot keys better
+
+20
+00:01:32,080 --> 00:01:33,880
+than them.
+
+21
+00:01:33,880 --> 00:01:39,560
+So it was a bum to move to VIM, and not be able to use those hot keys anymore.
+
+22
+00:01:39,560 --> 00:01:47,880
+But after I made the switch, I realized that I didn't need those hot keys.
+
+23
+00:01:47,880 --> 00:01:55,080
+The reason, let's back up, the reason why I made the switch is I was playing Civ5.
+
+24
+00:01:55,080 --> 00:02:02,240
+I didn't play a single video game for like a year, and I was starting to realize when
+
+25
+00:02:02,240 --> 00:02:10,240
+I was playing Civ5, that, uh, if I had the opportunity to, if I'm able to, I'm always
+
+26
+00:02:10,240 --> 00:02:12,040
+going to use hot keys.
+
+27
+00:02:12,040 --> 00:02:15,320
+There's never a moment where I'm like, oh, I'm not going to use hot keys, I'd rather
+
+28
+00:02:15,320 --> 00:02:16,320
+just use the mouse.
+
+29
+00:02:16,320 --> 00:02:18,320
+I know it, right?
+
+30
+00:02:18,320 --> 00:02:20,960
+So I kept, you know, you play Civ5 for long enough.
+
+31
+00:02:20,960 --> 00:02:23,520
+I have like a thousand hours in that game.
+
+32
+00:02:23,520 --> 00:02:27,400
+I was never a hot key, or keyboard wizard or nothing.
+
+33
+00:02:27,400 --> 00:02:37,400
+I was a FPS player, I liked using my mouse, I like clicking on stuff, but you do something
+
+34
+00:02:37,400 --> 00:02:38,400
+for long enough.
+
+35
+00:02:38,400 --> 00:02:42,680
+You start to gravitate towards the keyboard, it's just so natural and so nice to use the
+
+36
+00:02:42,680 --> 00:02:43,680
+keyboard.
+
+37
+00:02:43,680 --> 00:02:49,360
+Instead, you know, Civ5, Civ5 has an amazing UR, it's so nice to click on buttons.
+
+38
+00:02:49,360 --> 00:02:55,840
+Those buttons are so juicy in Civilization 5, and regardless, you know, every time I'm
+
+39
+00:02:55,840 --> 00:02:57,880
+building a farm, I'm like, this is so repetitive.
+
+40
+00:02:57,880 --> 00:03:03,320
+I have to click the farm button every time, and I start to realize every, about every
+
+41
+00:03:03,320 --> 00:03:08,680
+action in the game you can take with a unit, um, has a hot key, so you just hover over,
+
+42
+00:03:08,680 --> 00:03:10,440
+oh, you press I to build a farm.
+
+43
+00:03:10,440 --> 00:03:11,440
+Okay.
+
+44
+00:03:11,440 --> 00:03:16,200
+And then you slowly learn all the hot keys, like, for example, I could tell you right
+
+45
+00:03:16,200 --> 00:03:18,200
+now camp.
+
+46
+00:03:18,200 --> 00:03:23,560
+There's some fur, some little foxes running around in the hex, or there's a, uh, some
+
+47
+00:03:23,560 --> 00:03:31,160
+ivory, some elephants, H, H is to build a farm, uh, P for plantation, I think, uh, are
+
+48
+00:03:31,160 --> 00:03:36,480
+for road, you know, I remember, I think I remember a lot of these, I, for farm, I believe,
+
+49
+00:03:37,480 --> 00:03:42,480
+um, and I started to realize, like, you can't do everything with the mouse, but the
+
+50
+00:03:42,480 --> 00:03:45,000
+more you can do it, the keyboard, the better.
+
+51
+00:03:45,000 --> 00:03:52,160
+So I decided to adopt a more terminal centric full, I guess, another person who inspired
+
+52
+00:03:52,160 --> 00:03:59,960
+me to do this was, uh, I think his name is Soding Daily, TS Oding Daily, this Russian guy,
+
+53
+00:03:59,960 --> 00:04:03,760
+and I was watching him use, like, e-max and a bunch of other stuff, and I think that
+
+54
+00:04:03,760 --> 00:04:11,920
+was inspiring, like, oh, I could do this, another guy, um, there's 10, 10, 10, as this
+
+55
+00:04:11,920 --> 00:04:17,920
+guy's got long hair, he's from Scandinavia, or something I believe, and, um, he made
+
+56
+00:04:17,920 --> 00:04:22,720
+these videos where he did exclusively keyboard centric stuff.
+
+57
+00:04:22,720 --> 00:04:30,880
+In 10, 10's videos, he managed to do everything with the keyboard on his computer, and he
+
+58
+00:04:30,880 --> 00:04:34,920
+talked about Vimalot, and this is where I got introduced to the idea of using Vim, Vim is
+
+59
+00:04:34,920 --> 00:04:36,680
+a modal editor, right?
+
+60
+00:04:36,680 --> 00:04:41,600
+So Vim has certain modes where, like, if you mess up suddenly enter a different mode,
+
+61
+00:04:41,600 --> 00:04:46,120
+and you're not, like, in the text editor, like, you expect to be normally, you can't just
+
+62
+00:04:46,120 --> 00:04:48,360
+move around with the arrow keys.
+
+63
+00:04:48,360 --> 00:04:52,480
+In fact, in Vim, you're actively encouraged to not use the arrow keys, you're supposed to
+
+64
+00:04:52,480 --> 00:04:54,960
+use HJKL, right?
+
+65
+00:04:54,960 --> 00:04:58,960
+And then it turns out you're not supposed to use that either, necessarily, you're supposed
+
+66
+00:04:58,960 --> 00:05:06,520
+to learn word-based motions, sentence-based motions, paragraph-based motions, you're supposed
+
+67
+00:05:06,520 --> 00:05:11,600
+to get as efficient as possible, and take as many shortcuts as possible.
+
+68
+00:05:11,600 --> 00:05:17,400
+Now a lot of people switch to Unix because they don't want spyware, they don't want the
+
+69
+00:05:17,400 --> 00:05:23,000
+government to spy on or something or their edgy, or they want to write out their setup
+
+70
+00:05:23,000 --> 00:05:25,720
+and make it look cooler, I don't mess with any of that.
+
+71
+00:05:25,720 --> 00:05:29,280
+Like I said, I just use the default terminal, I do not care.
+
+72
+00:05:29,280 --> 00:05:34,120
+The reason why I use Unix is because I want package managers.
+
+73
+00:05:34,120 --> 00:05:38,920
+In Windows, I don't know, so many times, you're trying to install something in Windows,
+
+74
+00:05:38,920 --> 00:05:44,400
+and it's like, how do I, okay, do I get the installer for it, do I get the, do I do it with
+
+75
+00:05:44,400 --> 00:05:49,200
+the command line or script or what, and then it's just, it's so complicated.
+
+76
+00:05:49,200 --> 00:05:54,600
+Generally, in Unix, when I need something installed, it's just pseudo-apt installed, and
+
+77
+00:05:54,600 --> 00:05:59,960
+then the name of what I want, like Firefox, right, pseudo-apt install Firefox, pseudo-apt
+
+78
+00:05:59,960 --> 00:06:00,960
+install VLC.
+
+79
+00:06:00,960 --> 00:06:01,960
+Now I got VLC.
+
+80
+00:06:01,960 --> 00:06:04,000
+Now I got Firefox.
+
+81
+00:06:04,000 --> 00:06:09,840
+The other thing is like, you do install things on Windows, but sometimes just setting it up,
+
+82
+00:06:09,840 --> 00:06:10,840
+it just doesn't work.
+
+83
+00:06:10,840 --> 00:06:14,240
+Like I tried to, I remember trying to install Python on Windows, and it was such a pain,
+
+84
+00:06:14,240 --> 00:06:18,920
+like it was so hard to install Python, you would think that would be easy, right?
+
+85
+00:06:18,920 --> 00:06:24,560
+Let's address the alternative, and I used to use these two, of course, Google Docs.
+
+86
+00:06:24,600 --> 00:06:26,200
+Microsoft Word.
+
+87
+00:06:26,200 --> 00:06:33,800
+These are nice, because they are hosting your files remotely, and they kind of save stuff
+
+88
+00:06:33,800 --> 00:06:37,600
+very often, and of course, they have a lot of features, right?
+
+89
+00:06:37,600 --> 00:06:41,160
+You've got your equations and stuff, if you want to insert those, you can style stuff
+
+90
+00:06:41,160 --> 00:06:46,560
+however you want, but Mark Down is better, I'll tell you why.
+
+91
+00:06:46,560 --> 00:06:52,520
+So think about Google Docs, how many times have you been like working with your group
+
+92
+00:06:52,560 --> 00:07:00,760
+mates, or maybe at work or something, and someone is just in there collaborating, and
+
+93
+00:07:00,760 --> 00:07:06,960
+they put like a stupid random indent, or they put an inconsistent heading, or they put
+
+94
+00:07:06,960 --> 00:07:12,280
+like an extra space, or they style like the font, like slightly different sizes, it's
+
+95
+00:07:12,280 --> 00:07:13,840
+so silly, right?
+
+96
+00:07:13,840 --> 00:07:20,760
+You're never going to need the feature to have one paragraph be a different size than
+
+97
+00:07:20,760 --> 00:07:22,040
+the other, right?
+
+98
+00:07:22,040 --> 00:07:25,200
+You're always going to be wanting to have your paragraph the same size.
+
+99
+00:07:25,200 --> 00:07:27,440
+You always want consistent headings.
+
+100
+00:07:27,440 --> 00:07:35,920
+I once had a teacher, and she was teaching a communications class, and she really emphasized
+
+101
+00:07:35,920 --> 00:07:40,880
+she wanted consistent formatting, and so we couldn't even use Google Docs.
+
+102
+00:07:40,880 --> 00:07:45,520
+We had to use Microsoft Word, because Microsoft Word was better about making the styling
+
+103
+00:07:45,520 --> 00:07:48,120
+consistent across headings.
+
+104
+00:07:48,120 --> 00:07:54,120
+So at the time, I remember thinking there's got to be a better solution to this, right?
+
+105
+00:07:54,120 --> 00:08:00,080
+Then going through all your headings and selecting them and setting the styling for them
+
+106
+00:08:00,080 --> 00:08:04,600
+and eventually making sure the consistent rise, it's silly, right?
+
+107
+00:08:04,600 --> 00:08:11,000
+The funny thing about Google Docs is Google Docs, eventually now Google Docs, lets you
+
+108
+00:08:11,000 --> 00:08:13,320
+write Mark Down in Google Docs.
+
+109
+00:08:13,360 --> 00:08:18,000
+If you put a hash into Google Docs, it'll be like, oh, you want a heading one, or if
+
+110
+00:08:18,000 --> 00:08:23,800
+you put, I think you can bold stuff with like, asterix and stuff, and it just goes to
+
+111
+00:08:23,800 --> 00:08:28,920
+show how helpful Mark Down is that even Google Docs uses it.
+
+112
+00:08:28,920 --> 00:08:35,400
+But here's the thing, I'll argue in this video that you should not be worrying about
+
+113
+00:08:35,400 --> 00:08:39,200
+your styling, you should be worrying about your writing, right?
+
+114
+00:08:39,200 --> 00:08:41,520
+That's what Mark Down enables you to do.
+
+115
+00:08:41,520 --> 00:08:45,840
+This syntax is simpler than anything you've ever used.
+
+116
+00:08:45,840 --> 00:08:47,840
+Mark Down syntax is so simple.
+
+117
+00:08:47,840 --> 00:08:52,760
+I write a whole Mark Down file, like my whole article or write up or whatever it is, and
+
+118
+00:08:52,760 --> 00:08:57,120
+then I basically compile it once or twice, and there's no mistakes, like you're not going
+
+119
+00:08:57,120 --> 00:09:03,000
+to say, oh, I made that huge mistake and then edited a bunch, it's minimal, it's minimal,
+
+120
+00:09:03,000 --> 00:09:09,080
+you just write something and it's so effortless, versus Google Docs, you have to stare
+
+121
+00:09:09,080 --> 00:09:13,080
+at the end styling of your product, and you have to worry about the styling, every time
+
+122
+00:09:13,080 --> 00:09:20,760
+you make something, well, the styling isn't going to change that much per assignment, or
+
+123
+00:09:20,760 --> 00:09:23,000
+per article, or thing you write.
+
+124
+00:09:23,000 --> 00:09:27,200
+Use your word about the styling later, write a template, Pandox supports templates, you
+
+125
+00:09:27,200 --> 00:09:32,200
+can have an HTML template file, and you can use that for any Mark Down file.
+
+126
+00:09:32,200 --> 00:09:33,920
+Pandox is so simple, right?
+
+127
+00:09:33,920 --> 00:09:40,000
+You just specify the output file format, or I mean, really, you just specify the output
+
+128
+00:09:40,000 --> 00:09:46,360
+file and it looks at the file extension and figures out what you need to convert it to.
+
+129
+00:09:46,360 --> 00:09:54,360
+You can also export to HTML or PDF, and when you export to HTML, you can embed images
+
+130
+00:09:54,360 --> 00:10:01,360
+in the HTML, so you get all the advantages of PDF minus the disadvantages of PDF.
+
+131
+00:10:01,360 --> 00:10:06,800
+PDF is slow, PDF sucks with, you have a page break all the time, right?
+
+132
+00:10:06,800 --> 00:10:11,960
+How many times have you been reading something, and then you have a figure, right?
+
+133
+00:10:11,960 --> 00:10:15,160
+And then it gets like put on a different page, and then you're supposed to like look
+
+134
+00:10:15,160 --> 00:10:19,600
+one or two pages ahead to view the figure, it's so stupid.
+
+135
+00:10:19,600 --> 00:10:25,120
+In the modern age, when everything is being viewed in the browser, we should just be using
+
+136
+00:10:25,120 --> 00:10:28,160
+HTML, this doesn't make sense to use PDF.
+
+137
+00:10:28,160 --> 00:10:35,480
+With HTML, if you want to embed an image, it's as simple as you add dash-embed dash resources
+
+138
+00:10:35,480 --> 00:10:36,480
+for Pandox.
+
+139
+00:10:36,480 --> 00:10:40,040
+Next, it's funny how people reinvent the wheel.
+
+140
+00:10:40,040 --> 00:10:45,720
+Like I see people talking all the time about, or not people, but like I've seen instances
+
+141
+00:10:45,720 --> 00:10:51,920
+where there's like these apps that are for writing, and the thing they're trying to sell
+
+142
+00:10:51,920 --> 00:10:57,040
+you is that, well, when you revise your writing, there's a lot of stuff you threw
+
+143
+00:10:57,040 --> 00:10:58,040
+away.
+
+144
+00:10:58,040 --> 00:11:02,640
+We'll save every version of everything you throw away so that you can compile it later
+
+145
+00:11:02,640 --> 00:11:06,480
+and make something out of your deleted writing.
+
+146
+00:11:06,480 --> 00:11:12,760
+And it's just so funny to hear people who don't know, well, we'll just call them normies
+
+147
+00:11:12,760 --> 00:11:18,920
+who don't know about Git, basically talking about like how they want Git, and you know,
+
+148
+00:11:18,920 --> 00:11:21,240
+a year ago, I wasn't that good at Git.
+
+149
+00:11:21,240 --> 00:11:24,680
+I was relying on GitHub desktop if I want to do something.
+
+150
+00:11:24,760 --> 00:11:29,440
+I had a class where we learned about version control, and I said, this is stupid.
+
+151
+00:11:29,440 --> 00:11:32,520
+Why do we have to do this with the command line when there's a GUI for it?
+
+152
+00:11:32,520 --> 00:11:35,240
+This is so like we're doing it the ancient way or whatever.
+
+153
+00:11:35,240 --> 00:11:39,520
+I had a class where we learned about Unix, and I had to do VIM tutor.
+
+154
+00:11:39,520 --> 00:11:42,120
+I had to learn VIM, and I was like, this is weird.
+
+155
+00:11:42,120 --> 00:11:44,440
+Why would I ever edit and VIM or whatever?
+
+156
+00:11:44,440 --> 00:11:46,640
+What is the point of this?
+
+157
+00:11:46,640 --> 00:11:51,960
+And I've slowly got humbled over time, and I have arguments with people who are stuck
+
+158
+00:11:52,040 --> 00:11:54,680
+in the first phase, the phase that I was in.
+
+159
+00:11:54,680 --> 00:12:00,400
+And they're like, oh, I like to get GUI because I could see it easier.
+
+160
+00:12:00,400 --> 00:12:01,800
+It's not as hard.
+
+161
+00:12:01,800 --> 00:12:04,520
+GitHub GUI is a nice application.
+
+162
+00:12:04,520 --> 00:12:10,920
+However, Git is like the perfect command line tool.
+
+163
+00:12:10,920 --> 00:12:17,880
+It's like, you know, it's like an example of what command line tools can be, how helpful,
+
+164
+00:12:17,880 --> 00:12:21,120
+and how useful, and how good they can look.
+
+165
+00:12:21,200 --> 00:12:24,240
+It's such a nice tool to use over the command line.
+
+166
+00:12:24,240 --> 00:12:28,480
+And if you're a computer science major or a programmer or a software engineer,
+
+167
+00:12:28,480 --> 00:12:32,000
+you have no excuse for not learning Git, read the command line.
+
+168
+00:12:32,000 --> 00:12:38,160
+Anytime you want to do anything complicated, you can't be searching for a little drop-down
+
+169
+00:12:38,160 --> 00:12:46,000
+menu or some item in a GUI and GitHub desktop when you need to check out a branch or
+
+170
+00:12:46,080 --> 00:12:51,040
+stash some stuff, or, I don't know, just amend a commit or something like you need to just,
+
+171
+00:12:51,040 --> 00:12:52,720
+it's not that hard.
+
+172
+00:12:52,720 --> 00:12:58,160
+I understand that it seems daunting, and it can be really boring to learn these tools
+
+173
+00:12:58,160 --> 00:13:00,320
+and really scary at first.
+
+174
+00:13:00,320 --> 00:13:03,760
+But trust, listen, I went a year, a year.
+
+175
+00:13:03,760 --> 00:13:08,960
+It took me a year to get to the point where I do so much stuff over the terminal.
+
+176
+00:13:08,960 --> 00:13:13,840
+And note that something else, I got a virtual private server.
+
+177
+00:13:13,840 --> 00:13:19,680
+A virtual private server, mines in Seattle, it's a computer that is remote on the cloud
+
+178
+00:13:19,680 --> 00:13:21,760
+that I can access anytime I want.
+
+179
+00:13:21,760 --> 00:13:28,640
+That's the advantage of using a terminal is that if it's running on Unix,
+
+180
+00:13:28,640 --> 00:13:32,800
+you can use SSH to access that terminal anywhere in the world.
+
+181
+00:13:32,800 --> 00:13:39,440
+I can get into that computer from an unrelated computer as long as I have the right password
+
+182
+00:13:39,440 --> 00:13:40,720
+and permissions and stuff.
+
+183
+00:13:40,720 --> 00:13:45,440
+It's kind of similar to how in Google Docs, you're like, oh, I'm so glad that I can go to the
+
+184
+00:13:45,440 --> 00:13:49,600
+browser and use this anywhere and I'll have access to my code.
+
+185
+00:13:49,600 --> 00:13:52,240
+Well, you have the same thing with Git.
+
+186
+00:13:52,240 --> 00:13:54,960
+You have the same thing if you have a VPS, right?
+
+187
+00:13:54,960 --> 00:13:57,520
+Because you can host your files wherever you want.
+
+188
+00:13:57,520 --> 00:14:02,000
+And in my experience, it's easier to host files on my VPS and share them.
+
+189
+00:14:02,000 --> 00:14:05,920
+So what I do on my VPS, I have a website.
+
+190
+00:14:05,920 --> 00:14:13,440
+It's at Ben256.com and what I like to do is I hash my files.
+
+191
+00:14:13,440 --> 00:14:17,200
+When you hash it generates a signature, it uniquely identifies the file.
+
+192
+00:14:18,160 --> 00:14:21,520
+That makes sure that I never have duplicates on my server.
+
+193
+00:14:21,520 --> 00:14:27,520
+Then I put that in the URL along with the file and I can send that to anyone.
+
+194
+00:14:27,520 --> 00:14:30,960
+And then they can just open it up like you go to Ben256.com.
+
+195
+00:14:31,920 --> 00:14:38,960
+The notes for this video are Ben256.com slash MarkdownRant.html.
+
+196
+00:14:38,960 --> 00:14:45,600
+There's also a MarkdownRant.md and that's just one example of how easy it is to share things.
+
+197
+00:14:45,600 --> 00:14:51,680
+And when I'm in the terminal, like we said earlier, it's so nice to be able to use a package manager.
+
+198
+00:14:51,680 --> 00:14:55,040
+I found out there's a program called QR and code.
+
+199
+00:14:55,120 --> 00:14:57,840
+You can sue to apps and install QR and code.
+
+200
+00:14:57,840 --> 00:15:02,640
+And then when you have your URL that you host on your website,
+
+201
+00:15:02,640 --> 00:15:07,280
+you just pipe it into QR and code and you can generate a QR code on your laptop.
+
+202
+00:15:07,280 --> 00:15:10,160
+And then you tell your lab partner, whoever you want to share it with,
+
+203
+00:15:10,160 --> 00:15:13,280
+hey, scan this on your phone and now they have it on their phone.
+
+204
+00:15:13,280 --> 00:15:14,960
+No emailing required.
+
+205
+00:15:14,960 --> 00:15:19,280
+If you don't want to be so specific and have a giant hash in the URL,
+
+206
+00:15:19,280 --> 00:15:26,080
+then you can just straight up put it on like Ben256.com MarkdownRant.html.
+
+207
+00:15:26,080 --> 00:15:32,080
+I didn't hash that or anything. I just stuck it on the website to make it convenient to use.
+
+208
+00:15:32,080 --> 00:15:37,600
+Now, personally, what I do is if I'm going to submit an assignment,
+
+209
+00:15:37,600 --> 00:15:42,880
+and again, to reiterate, I submitted every single assignment using Markdown.
+
+210
+00:15:42,880 --> 00:15:48,400
+I haven't submitted any assignments using Google Docs or nothing or anything else.
+
+211
+00:15:48,480 --> 00:15:52,640
+Whenever they ask for PDF, PDF is a stupid format.
+
+212
+00:15:52,640 --> 00:15:57,840
+And sometimes, especially if you have a lot of images, it can look really bad in a PDF.
+
+213
+00:15:58,400 --> 00:16:01,200
+Even if Pam Doc converts it, it does it's best, right?
+
+214
+00:16:02,320 --> 00:16:06,240
+But if you have a ton of images, they're not going to all fit on one page.
+
+215
+00:16:06,240 --> 00:16:10,320
+And PDF has the stupid thing where there's page breaks all the time,
+
+216
+00:16:10,320 --> 00:16:13,920
+as if you're going to print it or something, nobody prints anything anymore.
+
+217
+00:16:13,920 --> 00:16:18,320
+So it's okay, what you do, the PDF version can be inferior.
+
+218
+00:16:18,880 --> 00:16:25,520
+And you can upload that to your course website or whoever needs the PDF.
+
+219
+00:16:25,520 --> 00:16:32,320
+But then, you just put a link in the PDF and link to your HTML version, which is superior,
+
+220
+00:16:32,320 --> 00:16:36,000
+or I go in the comments of my submission. I say, hey, check out the HTML version.
+
+221
+00:16:36,000 --> 00:16:40,320
+It's better, even though you ask for a PDF, I gave you one, but the HTML is better.
+
+222
+00:16:40,320 --> 00:16:45,840
+You might as well read that. And then, I never get any concerns for my greater.
+
+223
+00:16:45,840 --> 00:16:48,480
+Like, I can't read this because the figures are hard to read.
+
+224
+00:16:48,480 --> 00:16:50,720
+No, there's an HTML version.
+
+225
+00:16:50,720 --> 00:16:52,960
+And the HTML version looks so good.
+
+226
+00:16:52,960 --> 00:16:58,160
+Pandox, default conversion and the styling for HTML looks just good enough.
+
+227
+00:16:58,160 --> 00:17:00,000
+Like, there's nothing wrong with it.
+
+228
+00:17:00,000 --> 00:17:05,760
+You can even do slides in HTML using Pandox.
+
+229
+00:17:06,720 --> 00:17:09,680
+And the library is revealed.js.
+
+230
+00:17:09,680 --> 00:17:14,480
+And these slides, let me tell you, these slides are superior in every way.
+
+231
+00:17:14,480 --> 00:17:16,880
+It's a PowerPoint format or whatever.
+
+232
+00:17:16,880 --> 00:17:22,640
+Because when you export PowerPoint, your browser doesn't open that easily, right?
+
+233
+00:17:22,640 --> 00:17:28,880
+So what you end up doing is, I just had a class where the teacher, he converted his slides
+
+234
+00:17:28,880 --> 00:17:31,440
+the PowerPoint format into PDF.
+
+235
+00:17:31,600 --> 00:17:36,960
+So then, you had to constantly download this stupid huge PDF.
+
+236
+00:17:36,960 --> 00:17:39,520
+And it was just a waste, right?
+
+237
+00:17:39,520 --> 00:17:45,680
+Versus HTML, HTML is faster than PDF and just so much more convenient, right?
+
+238
+00:17:45,680 --> 00:17:47,360
+That's what the browser is for.
+
+239
+00:17:47,360 --> 00:17:50,800
+How many times are you going to download a PDF file?
+
+240
+00:17:50,800 --> 00:17:56,000
+PDF, PDF, parentheses one, PDF parentheses two, parentheses three,
+
+241
+00:17:56,000 --> 00:17:59,600
+parentheses four. How many times am I going to download this file?
+
+242
+00:17:59,600 --> 00:18:02,640
+If I'm just going to delete it, like, I have to remember to delete it.
+
+243
+00:18:02,640 --> 00:18:04,160
+That's what the browser is for.
+
+244
+00:18:04,160 --> 00:18:06,880
+That's why you serve files statically on a website.
+
+245
+00:18:08,400 --> 00:18:10,240
+HTML slides are epic.
+
+246
+00:18:10,240 --> 00:18:11,680
+And they look cooler.
+
+247
+00:18:11,680 --> 00:18:15,440
+They look more professional and more epic, or, okay, objectively.
+
+248
+00:18:16,080 --> 00:18:20,960
+Now, a lot of people do static site generation.
+
+249
+00:18:21,760 --> 00:18:28,800
+What that is, basically, is people don't want to have to write raw HTML.
+
+250
+00:18:28,800 --> 00:18:30,880
+Every time they make a new article, of course.
+
+251
+00:18:31,520 --> 00:18:36,480
+So, what some people do, well, some people, they do just write HTML.
+
+252
+00:18:36,480 --> 00:18:37,600
+And that's kind of cringe.
+
+253
+00:18:38,560 --> 00:18:40,880
+There's this really cool guy. I really like this guy.
+
+254
+00:18:40,880 --> 00:18:45,680
+He's like a bipolar schizophrenic guy and he's bald.
+
+255
+00:18:46,240 --> 00:18:49,600
+And his name is Luke Smith and he's like afraid of the government.
+
+256
+00:18:49,600 --> 00:18:51,120
+So he lives in the woods.
+
+257
+00:18:51,120 --> 00:18:54,960
+But he has a really excellent tutorial on how to set up your website.
+
+258
+00:18:55,040 --> 00:18:58,960
+And that's what I followed to set up my website with my VPS and stuff.
+
+259
+00:18:59,680 --> 00:19:01,600
+And he was a big advocate.
+
+260
+00:19:01,600 --> 00:19:03,120
+He started making this video.
+
+261
+00:19:03,120 --> 00:19:06,080
+He was like, look, I'm not to start writing raw HTML.
+
+262
+00:19:06,080 --> 00:19:09,440
+And it's such a pain to write HTML, like, playing.
+
+263
+00:19:09,440 --> 00:19:10,960
+Especially if you're doing a lot of it.
+
+264
+00:19:10,960 --> 00:19:13,360
+Every time you need a paragraph, you need to put a P tag.
+
+265
+00:19:13,360 --> 00:19:14,560
+It's so goofy.
+
+266
+00:19:14,560 --> 00:19:16,400
+That's what markdown is for.
+
+267
+00:19:16,400 --> 00:19:19,280
+You don't want to be opening a tag, enclosing your tag,
+
+268
+00:19:19,280 --> 00:19:24,720
+and making sure you have a right tag, and then writing your HTML boiler
+
+269
+00:19:24,720 --> 00:19:27,280
+plate. That's what Pandok handles that for you.
+
+270
+00:19:27,280 --> 00:19:31,680
+That's what the dash s, the dash dash stand alone flag does in Pandok.
+
+271
+00:19:31,680 --> 00:19:34,160
+It gives you boiler plate for your HTML.
+
+272
+00:19:34,160 --> 00:19:38,000
+Converse your markdown into HTML, semantic HTML.
+
+273
+00:19:38,000 --> 00:19:43,360
+Now, I also, I had a friend who he decided he was going to make a static site.
+
+274
+00:19:43,360 --> 00:19:44,720
+And he was going to generate it.
+
+275
+00:19:44,720 --> 00:19:46,400
+He's going to do a static site generator.
+
+276
+00:19:47,120 --> 00:19:48,800
+And I don't know why people do this.
+
+277
+00:19:48,800 --> 00:19:50,480
+I've seen a lot of programmers doing this.
+
+278
+00:19:50,480 --> 00:19:52,560
+They think, oh, I'm a programmer.
+
+279
+00:19:52,640 --> 00:19:54,480
+I'm going to write it in markdown.
+
+280
+00:19:54,480 --> 00:19:58,160
+And I'm going to convert it to HTML myself.
+
+281
+00:19:58,160 --> 00:20:00,880
+Guys, we don't need to reinvent the wheel.
+
+282
+00:20:00,880 --> 00:20:03,200
+Pandok does everything for us.
+
+283
+00:20:03,200 --> 00:20:07,840
+If you don't like the styling, that's why you use an HTML template.
+
+284
+00:20:07,840 --> 00:20:10,160
+And all it does is it does substitution.
+
+285
+00:20:10,160 --> 00:20:14,480
+It substitutes the text and puts it into the HTML template
+
+286
+00:20:14,480 --> 00:20:17,200
+that you provide with the styling that you want.
+
+287
+00:20:17,200 --> 00:20:18,560
+I'll give you an example.
+
+288
+00:20:18,640 --> 00:20:24,960
+If you go to Ben256.com slash read, I published a bunch of public domain
+
+289
+00:20:24,960 --> 00:20:28,320
+Plato texts from like Plato, the philosopher.
+
+290
+00:20:28,320 --> 00:20:30,000
+I was trying to get my friends to replay it.
+
+291
+00:20:30,000 --> 00:20:31,760
+And it didn't really work.
+
+292
+00:20:31,760 --> 00:20:35,520
+However, what you could do with this, right?
+
+293
+00:20:35,520 --> 00:20:36,960
+You can see the site.
+
+294
+00:20:36,960 --> 00:20:39,840
+I added in a little bar that scrolls.
+
+295
+00:20:39,840 --> 00:20:40,960
+It shows the completion.
+
+296
+00:20:40,960 --> 00:20:43,040
+Like how much you've read the article.
+
+297
+00:20:43,040 --> 00:20:46,560
+I added in a nav that is like statically generated.
+
+298
+00:20:46,960 --> 00:20:51,440
+There is whenever I update the pages,
+
+299
+00:20:51,440 --> 00:20:55,280
+there's like an automatic script that runs and updates the last updated.
+
+300
+00:20:56,320 --> 00:20:57,040
+It's so nice.
+
+301
+00:20:57,040 --> 00:21:00,800
+There's even footnotes are supported through Markdown.
+
+302
+00:21:00,800 --> 00:21:03,360
+If you use Pandok, it's so awesome.
+
+303
+00:21:03,360 --> 00:21:06,640
+And then everything as the right styling, everything looks nice.
+
+304
+00:21:06,640 --> 00:21:11,520
+You compare that to where I got the source material.
+
+305
+00:21:11,520 --> 00:21:14,800
+I went to Project Gutenberg and these websites.
+
+306
+00:21:14,880 --> 00:21:16,880
+Therefore, archival purposes.
+
+307
+00:21:16,880 --> 00:21:19,680
+They're not for like reading the whole text, right?
+
+308
+00:21:19,680 --> 00:21:23,520
+They suck for that because they have like these terrible old sites.
+
+309
+00:21:23,520 --> 00:21:25,280
+They're like horrible to read.
+
+310
+00:21:25,280 --> 00:21:29,440
+So what you do, or what I did, is I went and I got the UTF8 for it.
+
+311
+00:21:29,440 --> 00:21:30,400
+I just copied it.
+
+312
+00:21:30,400 --> 00:21:36,000
+I did a, this tiny little bit of like edits in a VIM to make it
+
+313
+00:21:36,000 --> 00:21:38,960
+a correctly formatted Markdown file.
+
+314
+00:21:38,960 --> 00:21:42,400
+Put in a little bit of metadata, title author translator.
+
+315
+00:21:43,360 --> 00:21:47,040
+And then I just run a script like I do on every other
+
+316
+00:21:47,040 --> 00:21:49,040
+Plato text that I've uploaded.
+
+317
+00:21:49,040 --> 00:21:52,560
+So if you go to Ben256.com slash read, you can see that.
+
+318
+00:21:52,560 --> 00:21:56,160
+And you can see an example of me,
+
+319
+00:21:56,160 --> 00:21:58,320
+everything I wrote there is Markdown.
+
+320
+00:21:58,320 --> 00:22:01,120
+Finally, we have to talk about Lawtech.
+
+321
+00:22:01,120 --> 00:22:08,480
+Lawtech in some ways is important mainly for math equations.
+
+322
+00:22:08,480 --> 00:22:11,840
+In other ways, it's like a worse version of Markdown.
+
+323
+00:22:11,840 --> 00:22:15,360
+So I've seen graduate students, they write
+
+324
+00:22:15,360 --> 00:22:17,360
+entire documents in Lawtech.
+
+325
+00:22:17,360 --> 00:22:19,360
+And hopefully they're using templates.
+
+326
+00:22:19,360 --> 00:22:21,520
+If not, they probably want to kill themselves.
+
+327
+00:22:21,520 --> 00:22:25,280
+Because Lawtech, it has all these slash begins, slash
+
+328
+00:22:25,280 --> 00:22:27,760
+and use package or like whatever.
+
+329
+00:22:27,760 --> 00:22:30,320
+There's so much garbage in Lawtech.
+
+330
+00:22:30,320 --> 00:22:34,240
+Like just to make like an unordered list or something,
+
+331
+00:22:34,240 --> 00:22:37,200
+it takes so much effort mentally and so much,
+
+332
+00:22:37,200 --> 00:22:40,720
+you have to remember so much like you might as well just ask AI
+
+333
+00:22:40,720 --> 00:22:42,880
+to write the Lawtech document for you.
+
+334
+00:22:42,880 --> 00:22:44,800
+If you're going to write something yourself,
+
+335
+00:22:44,800 --> 00:22:46,400
+don't write it in Lawtech.
+
+336
+00:22:46,400 --> 00:22:48,320
+If you want math equations,
+
+337
+00:22:48,320 --> 00:22:52,960
+well also don't use Google Docs and like go and look through a big menu
+
+338
+00:22:52,960 --> 00:22:56,320
+with like a big table like, oh, where's my, how do I make a fraction?
+
+339
+00:22:56,320 --> 00:22:58,320
+Oh, I got to go look for the fraction.
+
+340
+00:22:58,320 --> 00:23:00,000
+Oh, I got to do the square root.
+
+341
+00:23:00,000 --> 00:23:04,720
+Instead of doing the goofy parts of Lawtech in Lawtech,
+
+342
+00:23:04,720 --> 00:23:07,680
+do all the goofy parts of Lawtech in Markdown.
+
+343
+00:23:07,680 --> 00:23:12,160
+Using Pandok, you can embed Lawtech into your Markdown.
+
+344
+00:23:12,160 --> 00:23:14,000
+So you get all the upsides of Lawtech.
+
+345
+00:23:14,000 --> 00:23:17,200
+You can put Lawtech equations into your Markdown.
+
+346
+00:23:17,200 --> 00:23:21,600
+And then you don't have to do titles or headings with Lawtech.
+
+347
+00:23:21,600 --> 00:23:27,600
+If you want to be a boomer and write your whole page in just raw HTML,
+
+348
+00:23:27,600 --> 00:23:31,680
+well, you also don't have an excuse for not using Markdown in Pandok.
+
+349
+00:23:32,640 --> 00:23:36,160
+You can embed HTML into your Markdown.
+
+350
+00:23:36,240 --> 00:23:40,400
+If a template isn't working for you, finally,
+
+351
+00:23:40,400 --> 00:23:45,920
+how many times have you seen a code example in a PDF or something,
+
+352
+00:23:45,920 --> 00:23:50,160
+especially if you're like a college, like a CS major, right?
+
+353
+00:23:51,760 --> 00:23:54,240
+The professors, they're always putting these.
+
+354
+00:23:54,240 --> 00:23:58,480
+They just put these like black and white, like they paste code into Google Docs
+
+355
+00:23:58,480 --> 00:23:59,840
+and it's black and white.
+
+356
+00:23:59,840 --> 00:24:02,560
+It's not even, sometimes it's not even mono space.
+
+357
+00:24:02,560 --> 00:24:04,560
+And there's no syntax highlighting.
+
+358
+00:24:04,640 --> 00:24:06,400
+This is so goofy.
+
+359
+00:24:06,400 --> 00:24:10,320
+There's an obvious solution and they just don't bother to find it.
+
+360
+00:24:10,320 --> 00:24:10,880
+Okay.
+
+361
+00:24:10,880 --> 00:24:17,840
+The solution is the same thing that your read me uses on GitHub.
+
+362
+00:24:17,840 --> 00:24:22,240
+When you have a GitHub read me, you write Markdown and you put your code in.
+
+363
+00:24:22,240 --> 00:24:25,440
+And you do like three backs, backticks.
+
+364
+00:24:25,440 --> 00:24:31,920
+And then you put the name of the programming language that the code is made out of, right?
+
+365
+00:24:32,000 --> 00:24:38,640
+And then the GitHub interprets the GitHub interpreter
+
+366
+00:24:38,640 --> 00:24:43,680
+for the Markdown converts it into HTML or PDF,
+
+367
+00:24:43,680 --> 00:24:45,520
+or I guess you could get a PDF or whatever.
+
+368
+00:24:46,720 --> 00:24:50,800
+It does that with correct syntax highlighting for the language.
+
+369
+00:24:50,800 --> 00:24:53,360
+You can do that with Pandok and Markdown.
+
+370
+00:24:53,360 --> 00:24:56,000
+You don't need GitHub's version or whatever.
+
+371
+00:24:56,000 --> 00:24:56,640
+I do this.
+
+372
+00:24:56,640 --> 00:24:59,200
+I've done this a million times every time I put code in,
+
+373
+00:24:59,280 --> 00:25:02,480
+I specify the language into the Markdown file.
+
+374
+00:25:02,480 --> 00:25:04,400
+I embed that code in there.
+
+375
+00:25:04,400 --> 00:25:08,000
+And then when I export it as HTML, it looks beautiful.
+
+376
+00:25:08,000 --> 00:25:10,560
+It's correctly syntax highlights it.
+
+377
+00:25:10,560 --> 00:25:13,760
+It's all mono space, or yeah, it's all mono space.
+
+378
+00:25:15,040 --> 00:25:19,760
+PDF, PDF sometimes breaks if you have really wide code like a comment.
+
+379
+00:25:19,760 --> 00:25:21,440
+It's like goes on forever.
+
+380
+00:25:21,440 --> 00:25:25,600
+But if you export as HTML, you use the standalone flag.
+
+381
+00:25:25,600 --> 00:25:28,000
+It'll give you a scrollable region.
+
+382
+00:25:28,080 --> 00:25:29,520
+So it'll get cut off.
+
+383
+00:25:29,520 --> 00:25:34,480
+But if you want to see the rest of the line, you can scroll horizontally.
+
+384
+00:25:34,480 --> 00:25:39,520
+So I want to emphasize, like if I wish I had a book to write,
+
+385
+00:25:39,520 --> 00:25:43,440
+I wish I was like some kind of novelist or author or something,
+
+386
+00:25:43,440 --> 00:25:47,200
+because it is so enjoyable writing Markdown.
+
+387
+00:25:47,200 --> 00:25:52,960
+Every time I write Markdown, I'm just, I'm going to climax when I write Markdown, okay?
+
+388
+00:25:53,920 --> 00:25:57,600
+We got to stop writing inward or docs, okay?
+
+389
+00:25:57,600 --> 00:26:00,880
+Especially as programmers, it's cringe.
+
+390
+00:26:00,880 --> 00:26:02,080
+We got to stop doing this.
+
+391
+00:26:04,000 --> 00:26:07,760
+We shouldn't be rewriting static site generators.
+
+392
+00:26:07,760 --> 00:26:10,960
+When Pandok does it for us, it's, I installed it once,
+
+393
+00:26:10,960 --> 00:26:12,800
+and it's amazing and beautiful.
+
+394
+00:26:12,800 --> 00:26:15,680
+And then next time you're going to make some slides,
+
+395
+00:26:15,680 --> 00:26:17,040
+consider using Pandok.
+
+396
+00:26:17,040 --> 00:26:19,840
+Next time you're going to make a website, go ask chat,
+
+397
+00:26:20,640 --> 00:26:25,760
+Hey, chat, GPT, how do I convert Markdown into HTML with a nice template
+
+398
+00:26:25,760 --> 00:26:28,160
+so that my HTML styling looks nice?
+
+399
+00:26:28,160 --> 00:26:30,080
+And just have it generated in an example template,
+
+400
+00:26:30,080 --> 00:26:32,640
+and then mess with it until you like the styling.
+
+401
+00:26:32,640 --> 00:26:37,040
+Always use Markdown for, for any writing you do,
+
+402
+00:26:37,040 --> 00:26:38,640
+because it's distraction free.
+
+403
+00:26:38,640 --> 00:26:39,920
+You don't have to worry about the styling.
+
+404
+00:26:39,920 --> 00:26:42,880
+You just spit out some Markdown.
+
+405
+00:26:42,880 --> 00:26:45,280
+And version control with Git.
+
+406
+00:26:45,280 --> 00:26:48,080
+Don't be relying on Google Drive or something.
+
+407
+00:26:48,160 --> 00:26:50,480
+And learn Git via the command line.
+
+408
+00:26:50,480 --> 00:26:54,720
+You don't have to learn VIM, but VIM helps when you're writing Markdown,
+
+409
+00:26:54,720 --> 00:26:57,600
+and when basically when you're writing anything, VIM helps.
+
+410
+00:26:58,640 --> 00:27:01,840
+Also, HTML is the future.
+
+411
+00:27:01,840 --> 00:27:06,000
+HTML is so much better than PDF, PDF is slow, it sucks.
+
+412
+00:27:06,000 --> 00:27:10,720
+And we need to stop like this format of like things have page breaks,
+
+413
+00:27:10,720 --> 00:27:12,240
+and things are cut into pages.
+
+414
+00:27:12,240 --> 00:27:14,160
+Nobody print stuff anymore.
+
+415
+00:27:14,560 --> 00:27:19,280
+And additionally, you can print your HTML if you want it printed,
+
+416
+00:27:19,280 --> 00:27:21,600
+and then you can get it in like a page format.
+
+417
+00:27:21,600 --> 00:27:25,360
+I've done that whenever I'm making a cheat sheet for my classes,
+
+418
+00:27:25,360 --> 00:27:26,880
+for my exams.
+
+419
+00:27:26,880 --> 00:27:29,200
+I'll just write it all on HTML.
+
+420
+00:27:29,200 --> 00:27:31,120
+Sometimes I'll even ask chat, GPT.
+
+421
+00:27:31,120 --> 00:27:33,760
+I'll have all the material, I'll say, hey, put this into column,
+
+422
+00:27:33,760 --> 00:27:35,840
+so it fits on a page nicely.
+
+423
+00:27:35,840 --> 00:27:39,200
+I'm not going to write that in Google Word or Google Docs.
+
+424
+00:27:39,200 --> 00:27:41,600
+Now, suddenly you write it in Google Docs in Google Word.
+
+425
+00:27:41,600 --> 00:27:43,600
+You can't even fit as much stuff on the page
+
+426
+00:27:43,600 --> 00:27:45,760
+as if you use HTML in the first place,
+
+427
+00:27:45,760 --> 00:27:48,240
+and just use the print feature, right?
+
+428
+00:27:48,240 --> 00:27:49,760
+You can print HTML.
+
+429
+00:27:49,760 --> 00:27:53,680
+You can even specify specific styling for if you're printing.
+
+430
+00:27:54,400 --> 00:27:59,440
+And then compare and contrast, like you're reading a textbook for your class,
+
+431
+00:27:59,440 --> 00:28:02,800
+versus have you ever read like a nice medium article,
+
+432
+00:28:02,800 --> 00:28:08,400
+or maybe someone in this channel has used LearnOpenGL.com.
+
+433
+00:28:08,400 --> 00:28:12,080
+Like that is such a nice website, such a nice web resource.
+
+434
+00:28:12,080 --> 00:28:13,760
+These web resources are so cool.
+
+435
+00:28:13,760 --> 00:28:17,920
+They look nice, they make you feel like an epic gamer,
+
+436
+00:28:17,920 --> 00:28:19,680
+just by scrolling the room.
+
+437
+00:28:20,640 --> 00:28:21,760
+These are my takeaways.
+
+438
+00:28:21,760 --> 00:28:26,640
+It took me a year to learn them, to learn Markdown, using Pandok,
+
+439
+00:28:26,640 --> 00:28:28,640
+using Git via the command line,
+
+440
+00:28:28,640 --> 00:28:34,400
+and also like December, Ish, I switched to my new keyboard layout,
+
+441
+00:28:34,400 --> 00:28:35,760
+and I still use that.
+
+442
+00:28:35,760 --> 00:28:37,440
+There's so many things you can do.
+
+443
+00:28:37,440 --> 00:28:39,680
+Try installing Ubuntu, try to dual boot it.
+
+444
+00:28:39,680 --> 00:28:41,920
+If you don't want to dual boot it, use the Windows
+
+445
+00:28:41,920 --> 00:28:44,880
+subsystem Linux, or whatever it's called WSL, I think.
+
+446
+00:28:48,240 --> 00:28:52,640
+Currently, I'm trying to set up a membership
+
+447
+00:28:52,640 --> 00:28:54,640
+at Ben256.com.
+
+448
+00:28:55,840 --> 00:28:57,680
+You can check out the website if you want,
+
+449
+00:28:57,680 --> 00:28:59,040
+but there's no way to sign up.
+
+450
+00:28:59,040 --> 00:29:00,400
+There's no way to support me there.
+
+451
+00:29:01,280 --> 00:29:04,480
+But I do recommend if you want updates, go to Discord.
+
+452
+00:29:04,480 --> 00:29:08,400
+Just don't be a butt head, but I will help you if you go to Discord.
+
+453
+00:29:08,400 --> 00:29:10,880
+I'm helping people out all the time there,
+
+454
+00:29:10,880 --> 00:29:13,360
+usually for procedural animation stuff.
+
+455
+00:29:13,360 --> 00:29:15,680
+There's people in there who will help you out as well,
+
+456
+00:29:17,120 --> 00:29:21,680
+and you can select Notify for live streams, YouTube uploads,
+
+457
+00:29:21,680 --> 00:29:23,840
+for code, whatever you want in there.
+
+458
+00:29:23,840 --> 00:29:28,160
+So you can really get granular with what kind of notifications you receive.
+

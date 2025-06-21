@@ -1,0 +1,459 @@
+start	end	text
+0	7120	Any time I want to write something, lab reports, articles, math, tables, images, slideshows,
+7120	11280	I use the same method, VIM, Markdown, and Pandog.
+11280	18960	A year ago, literally today, I had no VIM, no Linux, or Git command line experience.
+18960	25320	And today, I use Unix exclusively for all programming and document preparation.
+25320	30880	Last year, I completely wiped Windows, and I switched 100% to Unix.
+30880	35840	I use VIM specifically, uh, NeoVIM, just out of habit.
+35840	40840	People told me to use NeoVIM, because it's got support for plugins and stuff.
+40840	44160	I never installed plugins, but I still, I use VIM.
+44160	45360	Just raw VIM.
+45360	47400	My terminal is default.
+47400	53120	There's no fancy colors, no skull, color scheme, nothing.
+53120	59680	I even switched my keyboard layout to call MacDH with home raw mods, because I was so
+59680	64520	serious about trying, uh, this attempt, right?
+64520	70960	So a year ago, I was using Visual Studio, Microsoft Visual Studio, and trust me, I really
+70960	73880	liked the hot keys in Microsoft Visual Studio.
+73880	77760	I would do this alt arrow thing to move the line up and down.
+77760	81360	You hold the control shift, and you can do multi-line editing, and stuff.
+81360	86640	It was really nice, and I really liked the hot keys, uh, like even the most autistic
+86640	92080	people in my major, I swear, in my computer science major, I knew the hot keys better
+92080	93880	than them.
+93880	99560	So it was a bum to move to VIM, and not be able to use those hot keys anymore.
+99560	107880	But after I made the switch, I realized that I didn't need those hot keys.
+107880	115080	The reason, let's back up, the reason why I made the switch is I was playing Civ5.
+115080	122240	I didn't play a single video game for like a year, and I was starting to realize when
+122240	130240	I was playing Civ5, that, uh, if I had the opportunity to, if I'm able to, I'm always
+130240	132040	going to use hot keys.
+132040	135320	There's never a moment where I'm like, oh, I'm not going to use hot keys, I'd rather
+135320	136320	just use the mouse.
+136320	138320	I know it, right?
+138320	140960	So I kept, you know, you play Civ5 for long enough.
+140960	143520	I have like a thousand hours in that game.
+143520	147400	I was never a hot key, or keyboard wizard or nothing.
+147400	157400	I was a FPS player, I liked using my mouse, I like clicking on stuff, but you do something
+157400	158400	for long enough.
+158400	162680	You start to gravitate towards the keyboard, it's just so natural and so nice to use the
+162680	163680	keyboard.
+163680	169360	Instead, you know, Civ5, Civ5 has an amazing UR, it's so nice to click on buttons.
+169360	175840	Those buttons are so juicy in Civilization 5, and regardless, you know, every time I'm
+175840	177880	building a farm, I'm like, this is so repetitive.
+177880	183320	I have to click the farm button every time, and I start to realize every, about every
+183320	188680	action in the game you can take with a unit, um, has a hot key, so you just hover over,
+188680	190440	oh, you press I to build a farm.
+190440	191440	Okay.
+191440	196200	And then you slowly learn all the hot keys, like, for example, I could tell you right
+196200	198200	now camp.
+198200	203560	There's some fur, some little foxes running around in the hex, or there's a, uh, some
+203560	211160	ivory, some elephants, H, H is to build a farm, uh, P for plantation, I think, uh, are
+211160	216480	for road, you know, I remember, I think I remember a lot of these, I, for farm, I believe,
+217480	222480	um, and I started to realize, like, you can't do everything with the mouse, but the
+222480	225000	more you can do it, the keyboard, the better.
+225000	232160	So I decided to adopt a more terminal centric full, I guess, another person who inspired
+232160	239960	me to do this was, uh, I think his name is Soding Daily, TS Oding Daily, this Russian guy,
+239960	243760	and I was watching him use, like, e-max and a bunch of other stuff, and I think that
+243760	251920	was inspiring, like, oh, I could do this, another guy, um, there's 10, 10, 10, as this
+251920	257920	guy's got long hair, he's from Scandinavia, or something I believe, and, um, he made
+257920	262720	these videos where he did exclusively keyboard centric stuff.
+262720	270880	In 10, 10's videos, he managed to do everything with the keyboard on his computer, and he
+270880	274920	talked about Vimalot, and this is where I got introduced to the idea of using Vim, Vim is
+274920	276680	a modal editor, right?
+276680	281600	So Vim has certain modes where, like, if you mess up suddenly enter a different mode,
+281600	286120	and you're not, like, in the text editor, like, you expect to be normally, you can't just
+286120	288360	move around with the arrow keys.
+288360	292480	In fact, in Vim, you're actively encouraged to not use the arrow keys, you're supposed to
+292480	294960	use HJKL, right?
+294960	298960	And then it turns out you're not supposed to use that either, necessarily, you're supposed
+298960	306520	to learn word-based motions, sentence-based motions, paragraph-based motions, you're supposed
+306520	311600	to get as efficient as possible, and take as many shortcuts as possible.
+311600	317400	Now a lot of people switch to Unix because they don't want spyware, they don't want the
+317400	323000	government to spy on or something or their edgy, or they want to write out their setup
+323000	325720	and make it look cooler, I don't mess with any of that.
+325720	329280	Like I said, I just use the default terminal, I do not care.
+329280	334120	The reason why I use Unix is because I want package managers.
+334120	338920	In Windows, I don't know, so many times, you're trying to install something in Windows,
+338920	344400	and it's like, how do I, okay, do I get the installer for it, do I get the, do I do it with
+344400	349200	the command line or script or what, and then it's just, it's so complicated.
+349200	354600	Generally, in Unix, when I need something installed, it's just pseudo-apt installed, and
+354600	359960	then the name of what I want, like Firefox, right, pseudo-apt install Firefox, pseudo-apt
+359960	360960	install VLC.
+360960	361960	Now I got VLC.
+361960	364000	Now I got Firefox.
+364000	369840	The other thing is like, you do install things on Windows, but sometimes just setting it up,
+369840	370840	it just doesn't work.
+370840	374240	Like I tried to, I remember trying to install Python on Windows, and it was such a pain,
+374240	378920	like it was so hard to install Python, you would think that would be easy, right?
+378920	384560	Let's address the alternative, and I used to use these two, of course, Google Docs.
+384600	386200	Microsoft Word.
+386200	393800	These are nice, because they are hosting your files remotely, and they kind of save stuff
+393800	397600	very often, and of course, they have a lot of features, right?
+397600	401160	You've got your equations and stuff, if you want to insert those, you can style stuff
+401160	406560	however you want, but Mark Down is better, I'll tell you why.
+406560	412520	So think about Google Docs, how many times have you been like working with your group
+412560	420760	mates, or maybe at work or something, and someone is just in there collaborating, and
+420760	426960	they put like a stupid random indent, or they put an inconsistent heading, or they put
+426960	432280	like an extra space, or they style like the font, like slightly different sizes, it's
+432280	433840	so silly, right?
+433840	440760	You're never going to need the feature to have one paragraph be a different size than
+440760	442040	the other, right?
+442040	445200	You're always going to be wanting to have your paragraph the same size.
+445200	447440	You always want consistent headings.
+447440	455920	I once had a teacher, and she was teaching a communications class, and she really emphasized
+455920	460880	she wanted consistent formatting, and so we couldn't even use Google Docs.
+460880	465520	We had to use Microsoft Word, because Microsoft Word was better about making the styling
+465520	468120	consistent across headings.
+468120	474120	So at the time, I remember thinking there's got to be a better solution to this, right?
+474120	480080	Then going through all your headings and selecting them and setting the styling for them
+480080	484600	and eventually making sure the consistent rise, it's silly, right?
+484600	491000	The funny thing about Google Docs is Google Docs, eventually now Google Docs, lets you
+491000	493320	write Mark Down in Google Docs.
+493360	498000	If you put a hash into Google Docs, it'll be like, oh, you want a heading one, or if
+498000	503800	you put, I think you can bold stuff with like, asterix and stuff, and it just goes to
+503800	508920	show how helpful Mark Down is that even Google Docs uses it.
+508920	515400	But here's the thing, I'll argue in this video that you should not be worrying about
+515400	519200	your styling, you should be worrying about your writing, right?
+519200	521520	That's what Mark Down enables you to do.
+521520	525840	This syntax is simpler than anything you've ever used.
+525840	527840	Mark Down syntax is so simple.
+527840	532760	I write a whole Mark Down file, like my whole article or write up or whatever it is, and
+532760	537120	then I basically compile it once or twice, and there's no mistakes, like you're not going
+537120	543000	to say, oh, I made that huge mistake and then edited a bunch, it's minimal, it's minimal,
+543000	549080	you just write something and it's so effortless, versus Google Docs, you have to stare
+549080	553080	at the end styling of your product, and you have to worry about the styling, every time
+553080	560760	you make something, well, the styling isn't going to change that much per assignment, or
+560760	563000	per article, or thing you write.
+563000	567200	Use your word about the styling later, write a template, Pandox supports templates, you
+567200	572200	can have an HTML template file, and you can use that for any Mark Down file.
+572200	573920	Pandox is so simple, right?
+573920	580000	You just specify the output file format, or I mean, really, you just specify the output
+580000	586360	file and it looks at the file extension and figures out what you need to convert it to.
+586360	594360	You can also export to HTML or PDF, and when you export to HTML, you can embed images
+594360	601360	in the HTML, so you get all the advantages of PDF minus the disadvantages of PDF.
+601360	606800	PDF is slow, PDF sucks with, you have a page break all the time, right?
+606800	611960	How many times have you been reading something, and then you have a figure, right?
+611960	615160	And then it gets like put on a different page, and then you're supposed to like look
+615160	619600	one or two pages ahead to view the figure, it's so stupid.
+619600	625120	In the modern age, when everything is being viewed in the browser, we should just be using
+625120	628160	HTML, this doesn't make sense to use PDF.
+628160	635480	With HTML, if you want to embed an image, it's as simple as you add dash-embed dash resources
+635480	636480	for Pandox.
+636480	640040	Next, it's funny how people reinvent the wheel.
+640040	645720	Like I see people talking all the time about, or not people, but like I've seen instances
+645720	651920	where there's like these apps that are for writing, and the thing they're trying to sell
+651920	657040	you is that, well, when you revise your writing, there's a lot of stuff you threw
+657040	658040	away.
+658040	662640	We'll save every version of everything you throw away so that you can compile it later
+662640	666480	and make something out of your deleted writing.
+666480	672760	And it's just so funny to hear people who don't know, well, we'll just call them normies
+672760	678920	who don't know about Git, basically talking about like how they want Git, and you know,
+678920	681240	a year ago, I wasn't that good at Git.
+681240	684680	I was relying on GitHub desktop if I want to do something.
+684760	689440	I had a class where we learned about version control, and I said, this is stupid.
+689440	692520	Why do we have to do this with the command line when there's a GUI for it?
+692520	695240	This is so like we're doing it the ancient way or whatever.
+695240	699520	I had a class where we learned about Unix, and I had to do VIM tutor.
+699520	702120	I had to learn VIM, and I was like, this is weird.
+702120	704440	Why would I ever edit and VIM or whatever?
+704440	706640	What is the point of this?
+706640	711960	And I've slowly got humbled over time, and I have arguments with people who are stuck
+712040	714680	in the first phase, the phase that I was in.
+714680	720400	And they're like, oh, I like to get GUI because I could see it easier.
+720400	721800	It's not as hard.
+721800	724520	GitHub GUI is a nice application.
+724520	730920	However, Git is like the perfect command line tool.
+730920	737880	It's like, you know, it's like an example of what command line tools can be, how helpful,
+737880	741120	and how useful, and how good they can look.
+741200	744240	It's such a nice tool to use over the command line.
+744240	748480	And if you're a computer science major or a programmer or a software engineer,
+748480	752000	you have no excuse for not learning Git, read the command line.
+752000	758160	Anytime you want to do anything complicated, you can't be searching for a little drop-down
+758160	766000	menu or some item in a GUI and GitHub desktop when you need to check out a branch or
+766080	771040	stash some stuff, or, I don't know, just amend a commit or something like you need to just,
+771040	772720	it's not that hard.
+772720	778160	I understand that it seems daunting, and it can be really boring to learn these tools
+778160	780320	and really scary at first.
+780320	783760	But trust, listen, I went a year, a year.
+783760	788960	It took me a year to get to the point where I do so much stuff over the terminal.
+788960	793840	And note that something else, I got a virtual private server.
+793840	799680	A virtual private server, mines in Seattle, it's a computer that is remote on the cloud
+799680	801760	that I can access anytime I want.
+801760	808640	That's the advantage of using a terminal is that if it's running on Unix,
+808640	812800	you can use SSH to access that terminal anywhere in the world.
+812800	819440	I can get into that computer from an unrelated computer as long as I have the right password
+819440	820720	and permissions and stuff.
+820720	825440	It's kind of similar to how in Google Docs, you're like, oh, I'm so glad that I can go to the
+825440	829600	browser and use this anywhere and I'll have access to my code.
+829600	832240	Well, you have the same thing with Git.
+832240	834960	You have the same thing if you have a VPS, right?
+834960	837520	Because you can host your files wherever you want.
+837520	842000	And in my experience, it's easier to host files on my VPS and share them.
+842000	845920	So what I do on my VPS, I have a website.
+845920	853440	It's at Ben256.com and what I like to do is I hash my files.
+853440	857200	When you hash it generates a signature, it uniquely identifies the file.
+858160	861520	That makes sure that I never have duplicates on my server.
+861520	867520	Then I put that in the URL along with the file and I can send that to anyone.
+867520	870960	And then they can just open it up like you go to Ben256.com.
+871920	878960	The notes for this video are Ben256.com slash MarkdownRant.html.
+878960	885600	There's also a MarkdownRant.md and that's just one example of how easy it is to share things.
+885600	891680	And when I'm in the terminal, like we said earlier, it's so nice to be able to use a package manager.
+891680	895040	I found out there's a program called QR and code.
+895120	897840	You can sue to apps and install QR and code.
+897840	902640	And then when you have your URL that you host on your website,
+902640	907280	you just pipe it into QR and code and you can generate a QR code on your laptop.
+907280	910160	And then you tell your lab partner, whoever you want to share it with,
+910160	913280	hey, scan this on your phone and now they have it on their phone.
+913280	914960	No emailing required.
+914960	919280	If you don't want to be so specific and have a giant hash in the URL,
+919280	926080	then you can just straight up put it on like Ben256.com MarkdownRant.html.
+926080	932080	I didn't hash that or anything. I just stuck it on the website to make it convenient to use.
+932080	937600	Now, personally, what I do is if I'm going to submit an assignment,
+937600	942880	and again, to reiterate, I submitted every single assignment using Markdown.
+942880	948400	I haven't submitted any assignments using Google Docs or nothing or anything else.
+948480	952640	Whenever they ask for PDF, PDF is a stupid format.
+952640	957840	And sometimes, especially if you have a lot of images, it can look really bad in a PDF.
+958400	961200	Even if Pam Doc converts it, it does it's best, right?
+962320	966240	But if you have a ton of images, they're not going to all fit on one page.
+966240	970320	And PDF has the stupid thing where there's page breaks all the time,
+970320	973920	as if you're going to print it or something, nobody prints anything anymore.
+973920	978320	So it's okay, what you do, the PDF version can be inferior.
+978880	985520	And you can upload that to your course website or whoever needs the PDF.
+985520	992320	But then, you just put a link in the PDF and link to your HTML version, which is superior,
+992320	996000	or I go in the comments of my submission. I say, hey, check out the HTML version.
+996000	1000320	It's better, even though you ask for a PDF, I gave you one, but the HTML is better.
+1000320	1005840	You might as well read that. And then, I never get any concerns for my greater.
+1005840	1008480	Like, I can't read this because the figures are hard to read.
+1008480	1010720	No, there's an HTML version.
+1010720	1012960	And the HTML version looks so good.
+1012960	1018160	Pandox, default conversion and the styling for HTML looks just good enough.
+1018160	1020000	Like, there's nothing wrong with it.
+1020000	1025760	You can even do slides in HTML using Pandox.
+1026720	1029680	And the library is revealed.js.
+1029680	1034480	And these slides, let me tell you, these slides are superior in every way.
+1034480	1036880	It's a PowerPoint format or whatever.
+1036880	1042640	Because when you export PowerPoint, your browser doesn't open that easily, right?
+1042640	1048880	So what you end up doing is, I just had a class where the teacher, he converted his slides
+1048880	1051440	the PowerPoint format into PDF.
+1051600	1056960	So then, you had to constantly download this stupid huge PDF.
+1056960	1059520	And it was just a waste, right?
+1059520	1065680	Versus HTML, HTML is faster than PDF and just so much more convenient, right?
+1065680	1067360	That's what the browser is for.
+1067360	1070800	How many times are you going to download a PDF file?
+1070800	1076000	PDF, PDF, parentheses one, PDF parentheses two, parentheses three,
+1076000	1079600	parentheses four. How many times am I going to download this file?
+1079600	1082640	If I'm just going to delete it, like, I have to remember to delete it.
+1082640	1084160	That's what the browser is for.
+1084160	1086880	That's why you serve files statically on a website.
+1088400	1090240	HTML slides are epic.
+1090240	1091680	And they look cooler.
+1091680	1095440	They look more professional and more epic, or, okay, objectively.
+1096080	1100960	Now, a lot of people do static site generation.
+1101760	1108800	What that is, basically, is people don't want to have to write raw HTML.
+1108800	1110880	Every time they make a new article, of course.
+1111520	1116480	So, what some people do, well, some people, they do just write HTML.
+1116480	1117600	And that's kind of cringe.
+1118560	1120880	There's this really cool guy. I really like this guy.
+1120880	1125680	He's like a bipolar schizophrenic guy and he's bald.
+1126240	1129600	And his name is Luke Smith and he's like afraid of the government.
+1129600	1131120	So he lives in the woods.
+1131120	1134960	But he has a really excellent tutorial on how to set up your website.
+1135040	1138960	And that's what I followed to set up my website with my VPS and stuff.
+1139680	1141600	And he was a big advocate.
+1141600	1143120	He started making this video.
+1143120	1146080	He was like, look, I'm not to start writing raw HTML.
+1146080	1149440	And it's such a pain to write HTML, like, playing.
+1149440	1150960	Especially if you're doing a lot of it.
+1150960	1153360	Every time you need a paragraph, you need to put a P tag.
+1153360	1154560	It's so goofy.
+1154560	1156400	That's what markdown is for.
+1156400	1159280	You don't want to be opening a tag, enclosing your tag,
+1159280	1164720	and making sure you have a right tag, and then writing your HTML boiler
+1164720	1167280	plate. That's what Pandok handles that for you.
+1167280	1171680	That's what the dash s, the dash dash stand alone flag does in Pandok.
+1171680	1174160	It gives you boiler plate for your HTML.
+1174160	1178000	Converse your markdown into HTML, semantic HTML.
+1178000	1183360	Now, I also, I had a friend who he decided he was going to make a static site.
+1183360	1184720	And he was going to generate it.
+1184720	1186400	He's going to do a static site generator.
+1187120	1188800	And I don't know why people do this.
+1188800	1190480	I've seen a lot of programmers doing this.
+1190480	1192560	They think, oh, I'm a programmer.
+1192640	1194480	I'm going to write it in markdown.
+1194480	1198160	And I'm going to convert it to HTML myself.
+1198160	1200880	Guys, we don't need to reinvent the wheel.
+1200880	1203200	Pandok does everything for us.
+1203200	1207840	If you don't like the styling, that's why you use an HTML template.
+1207840	1210160	And all it does is it does substitution.
+1210160	1214480	It substitutes the text and puts it into the HTML template
+1214480	1217200	that you provide with the styling that you want.
+1217200	1218560	I'll give you an example.
+1218640	1224960	If you go to Ben256.com slash read, I published a bunch of public domain
+1224960	1228320	Plato texts from like Plato, the philosopher.
+1228320	1230000	I was trying to get my friends to replay it.
+1230000	1231760	And it didn't really work.
+1231760	1235520	However, what you could do with this, right?
+1235520	1236960	You can see the site.
+1236960	1239840	I added in a little bar that scrolls.
+1239840	1240960	It shows the completion.
+1240960	1243040	Like how much you've read the article.
+1243040	1246560	I added in a nav that is like statically generated.
+1246960	1251440	There is whenever I update the pages,
+1251440	1255280	there's like an automatic script that runs and updates the last updated.
+1256320	1257040	It's so nice.
+1257040	1260800	There's even footnotes are supported through Markdown.
+1260800	1263360	If you use Pandok, it's so awesome.
+1263360	1266640	And then everything as the right styling, everything looks nice.
+1266640	1271520	You compare that to where I got the source material.
+1271520	1274800	I went to Project Gutenberg and these websites.
+1274880	1276880	Therefore, archival purposes.
+1276880	1279680	They're not for like reading the whole text, right?
+1279680	1283520	They suck for that because they have like these terrible old sites.
+1283520	1285280	They're like horrible to read.
+1285280	1289440	So what you do, or what I did, is I went and I got the UTF8 for it.
+1289440	1290400	I just copied it.
+1290400	1296000	I did a, this tiny little bit of like edits in a VIM to make it
+1296000	1298960	a correctly formatted Markdown file.
+1298960	1302400	Put in a little bit of metadata, title author translator.
+1303360	1307040	And then I just run a script like I do on every other
+1307040	1309040	Plato text that I've uploaded.
+1309040	1312560	So if you go to Ben256.com slash read, you can see that.
+1312560	1316160	And you can see an example of me,
+1316160	1318320	everything I wrote there is Markdown.
+1318320	1321120	Finally, we have to talk about Lawtech.
+1321120	1328480	Lawtech in some ways is important mainly for math equations.
+1328480	1331840	In other ways, it's like a worse version of Markdown.
+1331840	1335360	So I've seen graduate students, they write
+1335360	1337360	entire documents in Lawtech.
+1337360	1339360	And hopefully they're using templates.
+1339360	1341520	If not, they probably want to kill themselves.
+1341520	1345280	Because Lawtech, it has all these slash begins, slash
+1345280	1347760	and use package or like whatever.
+1347760	1350320	There's so much garbage in Lawtech.
+1350320	1354240	Like just to make like an unordered list or something,
+1354240	1357200	it takes so much effort mentally and so much,
+1357200	1360720	you have to remember so much like you might as well just ask AI
+1360720	1362880	to write the Lawtech document for you.
+1362880	1364800	If you're going to write something yourself,
+1364800	1366400	don't write it in Lawtech.
+1366400	1368320	If you want math equations,
+1368320	1372960	well also don't use Google Docs and like go and look through a big menu
+1372960	1376320	with like a big table like, oh, where's my, how do I make a fraction?
+1376320	1378320	Oh, I got to go look for the fraction.
+1378320	1380000	Oh, I got to do the square root.
+1380000	1384720	Instead of doing the goofy parts of Lawtech in Lawtech,
+1384720	1387680	do all the goofy parts of Lawtech in Markdown.
+1387680	1392160	Using Pandok, you can embed Lawtech into your Markdown.
+1392160	1394000	So you get all the upsides of Lawtech.
+1394000	1397200	You can put Lawtech equations into your Markdown.
+1397200	1401600	And then you don't have to do titles or headings with Lawtech.
+1401600	1407600	If you want to be a boomer and write your whole page in just raw HTML,
+1407600	1411680	well, you also don't have an excuse for not using Markdown in Pandok.
+1412640	1416160	You can embed HTML into your Markdown.
+1416240	1420400	If a template isn't working for you, finally,
+1420400	1425920	how many times have you seen a code example in a PDF or something,
+1425920	1430160	especially if you're like a college, like a CS major, right?
+1431760	1434240	The professors, they're always putting these.
+1434240	1438480	They just put these like black and white, like they paste code into Google Docs
+1438480	1439840	and it's black and white.
+1439840	1442560	It's not even, sometimes it's not even mono space.
+1442560	1444560	And there's no syntax highlighting.
+1444640	1446400	This is so goofy.
+1446400	1450320	There's an obvious solution and they just don't bother to find it.
+1450320	1450880	Okay.
+1450880	1457840	The solution is the same thing that your read me uses on GitHub.
+1457840	1462240	When you have a GitHub read me, you write Markdown and you put your code in.
+1462240	1465440	And you do like three backs, backticks.
+1465440	1471920	And then you put the name of the programming language that the code is made out of, right?
+1472000	1478640	And then the GitHub interprets the GitHub interpreter
+1478640	1483680	for the Markdown converts it into HTML or PDF,
+1483680	1485520	or I guess you could get a PDF or whatever.
+1486720	1490800	It does that with correct syntax highlighting for the language.
+1490800	1493360	You can do that with Pandok and Markdown.
+1493360	1496000	You don't need GitHub's version or whatever.
+1496000	1496640	I do this.
+1496640	1499200	I've done this a million times every time I put code in,
+1499280	1502480	I specify the language into the Markdown file.
+1502480	1504400	I embed that code in there.
+1504400	1508000	And then when I export it as HTML, it looks beautiful.
+1508000	1510560	It's correctly syntax highlights it.
+1510560	1513760	It's all mono space, or yeah, it's all mono space.
+1515040	1519760	PDF, PDF sometimes breaks if you have really wide code like a comment.
+1519760	1521440	It's like goes on forever.
+1521440	1525600	But if you export as HTML, you use the standalone flag.
+1525600	1528000	It'll give you a scrollable region.
+1528080	1529520	So it'll get cut off.
+1529520	1534480	But if you want to see the rest of the line, you can scroll horizontally.
+1534480	1539520	So I want to emphasize, like if I wish I had a book to write,
+1539520	1543440	I wish I was like some kind of novelist or author or something,
+1543440	1547200	because it is so enjoyable writing Markdown.
+1547200	1552960	Every time I write Markdown, I'm just, I'm going to climax when I write Markdown, okay?
+1553920	1557600	We got to stop writing inward or docs, okay?
+1557600	1560880	Especially as programmers, it's cringe.
+1560880	1562080	We got to stop doing this.
+1564000	1567760	We shouldn't be rewriting static site generators.
+1567760	1570960	When Pandok does it for us, it's, I installed it once,
+1570960	1572800	and it's amazing and beautiful.
+1572800	1575680	And then next time you're going to make some slides,
+1575680	1577040	consider using Pandok.
+1577040	1579840	Next time you're going to make a website, go ask chat,
+1580640	1585760	Hey, chat, GPT, how do I convert Markdown into HTML with a nice template
+1585760	1588160	so that my HTML styling looks nice?
+1588160	1590080	And just have it generated in an example template,
+1590080	1592640	and then mess with it until you like the styling.
+1592640	1597040	Always use Markdown for, for any writing you do,
+1597040	1598640	because it's distraction free.
+1598640	1599920	You don't have to worry about the styling.
+1599920	1602880	You just spit out some Markdown.
+1602880	1605280	And version control with Git.
+1605280	1608080	Don't be relying on Google Drive or something.
+1608160	1610480	And learn Git via the command line.
+1610480	1614720	You don't have to learn VIM, but VIM helps when you're writing Markdown,
+1614720	1617600	and when basically when you're writing anything, VIM helps.
+1618640	1621840	Also, HTML is the future.
+1621840	1626000	HTML is so much better than PDF, PDF is slow, it sucks.
+1626000	1630720	And we need to stop like this format of like things have page breaks,
+1630720	1632240	and things are cut into pages.
+1632240	1634160	Nobody print stuff anymore.
+1634560	1639280	And additionally, you can print your HTML if you want it printed,
+1639280	1641600	and then you can get it in like a page format.
+1641600	1645360	I've done that whenever I'm making a cheat sheet for my classes,
+1645360	1646880	for my exams.
+1646880	1649200	I'll just write it all on HTML.
+1649200	1651120	Sometimes I'll even ask chat, GPT.
+1651120	1653760	I'll have all the material, I'll say, hey, put this into column,
+1653760	1655840	so it fits on a page nicely.
+1655840	1659200	I'm not going to write that in Google Word or Google Docs.
+1659200	1661600	Now, suddenly you write it in Google Docs in Google Word.
+1661600	1663600	You can't even fit as much stuff on the page
+1663600	1665760	as if you use HTML in the first place,
+1665760	1668240	and just use the print feature, right?
+1668240	1669760	You can print HTML.
+1669760	1673680	You can even specify specific styling for if you're printing.
+1674400	1679440	And then compare and contrast, like you're reading a textbook for your class,
+1679440	1682800	versus have you ever read like a nice medium article,
+1682800	1688400	or maybe someone in this channel has used LearnOpenGL.com.
+1688400	1692080	Like that is such a nice website, such a nice web resource.
+1692080	1693760	These web resources are so cool.
+1693760	1697920	They look nice, they make you feel like an epic gamer,
+1697920	1699680	just by scrolling the room.
+1700640	1701760	These are my takeaways.
+1701760	1706640	It took me a year to learn them, to learn Markdown, using Pandok,
+1706640	1708640	using Git via the command line,
+1708640	1714400	and also like December, Ish, I switched to my new keyboard layout,
+1714400	1715760	and I still use that.
+1715760	1717440	There's so many things you can do.
+1717440	1719680	Try installing Ubuntu, try to dual boot it.
+1719680	1721920	If you don't want to dual boot it, use the Windows
+1721920	1724880	subsystem Linux, or whatever it's called WSL, I think.
+1728240	1732640	Currently, I'm trying to set up a membership
+1732640	1734640	at Ben256.com.
+1735840	1737680	You can check out the website if you want,
+1737680	1739040	but there's no way to sign up.
+1739040	1740400	There's no way to support me there.
+1741280	1744480	But I do recommend if you want updates, go to Discord.
+1744480	1748400	Just don't be a butt head, but I will help you if you go to Discord.
+1748400	1750880	I'm helping people out all the time there,
+1750880	1753360	usually for procedural animation stuff.
+1753360	1755680	There's people in there who will help you out as well,
+1757120	1761680	and you can select Notify for live streams, YouTube uploads,
+1761680	1763840	for code, whatever you want in there.
+1763840	1768160	So you can really get granular with what kind of notifications you receive.
