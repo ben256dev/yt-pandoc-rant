@@ -16,13 +16,14 @@ export const NerdMacros: React.FC<NerdMacrosProps> = ({width}) => {
       <AbsoluteFill>
         <OffthreadVideo
           src="https://ben256.com/b/76bff3d837d133943794fdcb488444c4a617c2cb03503e4d028293a02b5a976e/primeagen_vimtutor.mp4"
-          playbackRate={25}
+          playbackRate={6}
           startFrom={2950}
           style={{
             position: 'absolute',
             objectFit: 'cover',
             width,
           }}
+          muted
         />
       </AbsoluteFill>
       <AbsoluteFill>
@@ -35,6 +36,7 @@ export const NerdMacros: React.FC<NerdMacrosProps> = ({width}) => {
             position: 'absolute',
             objectFit: 'cover',
           }}
+          muted
         />
       </AbsoluteFill>
     </AbsoluteFill>
